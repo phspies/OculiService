@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED2E8536-E9B5-4358-A104-3B2F64EFE84A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OculiService</RootNamespace>
+    <AssemblyName>OculiService</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DD.CBU.Compute.Api.Client, Version=3.3.493.0, Culture=neutral, PublicKeyToken=52cdfe53446c826c, processorArchitecture=MSIL">
+      <HintPath>..\packages\DD.CBU.Compute.Api.Client.3.3.493\lib\net45\DD.CBU.Compute.Api.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DD.CBU.Compute.Api.Contracts, Version=3.3.493.0, Culture=neutral, PublicKeyToken=52cdfe53446c826c, processorArchitecture=MSIL">
+      <HintPath>..\packages\DD.CBU.Compute.Api.Client.3.3.493\lib\net45\DD.CBU.Compute.Api.Contracts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Hosting, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Hosting.3.1.0\lib\net45\Microsoft.Owin.Hosting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net452\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Selectors" />
+    <Reference Include="System.identitymodel.services" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Core, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.Core.3.1.1\lib\net45\System.Reactive.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.Interfaces.3.1.1\lib\net45\System.Reactive.Interfaces.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Linq, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.Linq.3.1.1\lib\net45\System.Reactive.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CloudProviders\Oculi\Contracts\CoreEngine\OculiCoreEngineListType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\CoreEngine\OculiCoreEngineType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Credential\OculiCredentialListType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Credential\OculiCredentialType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\DatamoverPolicy\OculiDatamoverPolicyListType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\DatamoverPolicy\OculiDatamoverPolicyType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\DatamoverDeploymentPolicy\OculiDatamoverDeploymentPolicyType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\DatamoverDeploymentPolicy\OculiDatamoverDeploymentPolicyListType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\OculiStatusType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\OculiPagingType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\PlatformTemplates\OculiPlatformTemplateListType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\PlatformTemplates\OculiPlatformTemplateType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Platforms\OculiPlatformListType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Platforms\OculiPlatformType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Workload\OculiWorkloadInterfaceType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Workload\OculiWorkloadVolumeType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Workload\OculiWorkloadListType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Workload\OculiWorkloadPackageType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Workload\OculiWorkloadDiskType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Workload\OculiWorkloadProcessType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Workload\OculiWorkloadType.cs" />
+    <Compile Include="CloudProviders\Oculi\Core\RestClientFactory.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Organization\OculiOrganizationType.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\User\OculiUserType.cs" />
+    <Compile Include="CloudProviders\Oculi\Core\OculiApi.cs" />
+    <Compile Include="CloudProviders\Oculi\Core\OculiApiCore.cs" />
+    <Compile Include="CloudProviders\Oculi\Core\OculiApiJsonSerializer.cs" />
+    <Compile Include="CloudProviders\Oculi\Core\OculiException.cs" />
+    <Compile Include="CloudProviders\Oculi\Endoints\Authenitcation\OculiOAuth2Endpoint.cs" />
+    <Compile Include="CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs" />
+    <Compile Include="CloudProviders\Oculi\Authentication\OculiOAuth2.cs" />
+    <Compile Include="CloudProviders\Oculi\Authentication\OculiOAuthSerialization.cs" />
+    <Compile Include="CloudProviders\Oculi\Authentication\OculiTokenFactory.cs" />
+    <Compile Include="CloudProviders\Oculi\Endoints\Workload\OculiWorkload.cs" />
+    <Compile Include="CloudProviders\Oculi\Interfaces\IOculiApi.cs" />
+    <Compile Include="CloudProviders\Oculi\Interfaces\IOculiOAuth2Endpoint.cs" />
+    <Compile Include="CloudProviders\Oculi\Interfaces\IOculiApiCore.cs" />
+    <Compile Include="CloudProviders\Oculi\Interfaces\IOculiWorkload.cs" />
+    <Compile Include="CloudProviders\Oculi\Interfaces\IOculiOrganization.cs" />
+    <Compile Include="CloudProviders\Oculi\Interfaces\IOculiOAuth2.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Authentication\OculiOAuth2AuthResponseData.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\OculiOAuth2Token.cs" />
+    <Compile Include="CloudProviders\Oculi\Contracts\Authentication\OculiOAuth2AuthResponse.cs" />
+    <Compile Include="CloudProviders\Oculi\Interfaces\IOculiException.cs" />
+    <Compile Include="Common\Common\Aggregation\Aggregate.cs" />
+    <Compile Include="Common\Common\Aggregation\AggregateExtensions.cs" />
+    <Compile Include="Common\Common\Aggregation\AggregateKey.cs" />
+    <Compile Include="Common\Common\Aggregation\IAggregateSelector`1.cs" />
+    <Compile Include="Common\Common\Alternate\Tuple.cs" />
+    <Compile Include="Common\Common\Alternate\Tuple`2.cs" />
+    <Compile Include="Common\Common\Alternate\Tuple`3.cs" />
+    <Compile Include="Common\Common\ArgumentCollection.cs" />
+    <Compile Include="Common\Common\AttributeHelpers.cs" />
+    <Compile Include="Common\Common\Bits.cs" />
+    <Compile Include="Common\Common\CloneUtility.cs" />
+    <Compile Include="Common\Common\Collections\Generic\CollectionMetadataAction.cs" />
+    <Compile Include="Common\Common\Collections\Generic\CollectionMetadataGenerator_T.cs" />
+    <Compile Include="Common\Common\Collections\Generic\CollectionMetadata_T.cs" />
+    <Compile Include="Common\Common\Collections\Generic\DictionaryEnumerator`2.cs" />
+    <Compile Include="Common\Common\Collections\Generic\IObservableCollection`1.cs" />
+    <Compile Include="Common\Common\Collections\Generic\IObservableNominalCollection`2.cs" />
+    <Compile Include="Common\Common\Collections\Generic\IPruningPolicy`1.cs" />
+    <Compile Include="Common\Common\Collections\Generic\ISearchTreeNode`1.cs" />
+    <Compile Include="Common\Common\Collections\Generic\ITreeNodeAdapter`1.cs" />
+    <Compile Include="Common\Common\Collections\Generic\ITreeNode`1.cs" />
+    <Compile Include="Common\Common\Collections\Generic\ListExtensions.cs" />
+    <Compile Include="Common\Common\Collections\Generic\ReadOnlyDictionaryDebugView`2.cs" />
+    <Compile Include="Common\Common\Collections\Generic\ReadOnlyDictionary`2.cs" />
+    <Compile Include="Common\Common\Collections\Generic\ReferenceCountedObservable`1.cs" />
+    <Compile Include="Common\Common\Collections\Generic\SortedCollection`1.cs" />
+    <Compile Include="Common\Common\Collections\Generic\SubjectExtensions.cs" />
+    <Compile Include="Common\Common\Collections\Generic\TraversalOrder.cs" />
+    <Compile Include="Common\Common\Collections\Generic\Util.cs" />
+    <Compile Include="Common\Common\Concurrency\TaskDispatcherScheduler.cs" />
+    <Compile Include="Common\Common\Cryptor.cs" />
+    <Compile Include="Common\Common\Diagnostics\ConfigurationMonitor.cs" />
+    <Compile Include="Common\Common\Diagnostics\EventLogEntryData.cs" />
+    <Compile Include="Common\Common\Diagnostics\EventLogEntryDataCollection.cs" />
+    <Compile Include="Common\Common\Diagnostics\EventLogEntryWrapper.cs" />
+    <Compile Include="Common\Common\Diagnostics\EventLogExtensions.cs" />
+    <Compile Include="Common\Common\Diagnostics\EventLogWrapper.cs" />
+    <Compile Include="Common\Common\Diagnostics\IEventLog.cs" />
+    <Compile Include="Common\Common\Diagnostics\IProcess.cs" />
+    <Compile Include="Common\Common\Diagnostics\IProcessFactory.cs" />
+    <Compile Include="Common\Common\Diagnostics\LoggerTraceListener.cs" />
+    <Compile Include="Common\Common\Diagnostics\MiniDumpProvider.cs" />
+    <Compile Include="Common\Common\Diagnostics\MiniDumpType.cs" />
+    <Compile Include="Common\Common\Diagnostics\NativeMethods.cs" />
+    <Compile Include="Common\Common\Diagnostics\ProcessExtensions.cs" />
+    <Compile Include="Common\Common\Diagnostics\ProcessFactory.cs" />
+    <Compile Include="Common\Common\Diagnostics\ProcessFactoryExtensions.cs" />
+    <Compile Include="Common\Common\Diagnostics\ProcessHelper.cs" />
+    <Compile Include="Common\Common\Diagnostics\ProcessWrapper.cs" />
+    <Compile Include="Common\Common\Diagnostics\Tracer.cs" />
+    <Compile Include="Common\Common\Dispatchers\CurrentOrDefaultSchedulerTaskDispatcher.cs" />
+    <Compile Include="Common\Common\Dispatchers\DefaultSchedulerChildTaskDispatcher.cs" />
+    <Compile Include="Common\Common\Dispatchers\DefaultSchedulerTaskDispatcher.cs" />
+    <Compile Include="Common\Common\Dispatchers\ImmediateDispatcher.cs" />
+    <Compile Include="Common\Common\Dispatchers\ITaskDispatcher.cs" />
+    <Compile Include="Common\Common\Dispatchers\SerializedDispatcher.cs" />
+    <Compile Include="Common\Common\Dispatchers\SingleThreadedTaskDispatcher.cs" />
+    <Compile Include="Common\Common\Dispatchers\TaskDispatcherExtensions.cs" />
+    <Compile Include="Common\Common\Dispatchers\TaskDispatcher`1.cs" />
+    <Compile Include="Common\Common\Encryption\IOAuth2TokenCryptor.cs" />
+    <Compile Include="Common\Common\Encryption\ICredentialCryptor.cs" />
+    <Compile Include="Common\Common\Encryption\MachineScopeCredentialCryptor.cs" />
+    <Compile Include="Common\Common\Encryption\OAuth2TokenExtensions.cs" />
+    <Compile Include="Common\Common\Encryption\NetworkCredentialExtensions.cs" />
+    <Compile Include="Common\Common\Encryption\TripleDESOAuth2TokenCryptor.cs" />
+    <Compile Include="Common\Common\Encryption\TripleDESCredentialCryptor.cs" />
+    <Compile Include="Common\Common\EngineVersion.cs" />
+    <Compile Include="Common\Common\ExceptionHandling\DelegateExceptionHandler.cs" />
+    <Compile Include="Common\Common\ExceptionHandling\ExceptionExtensions.cs" />
+    <Compile Include="Common\Common\ExceptionHandling\ExceptionHandlerEventArgs.cs" />
+    <Compile Include="Common\Common\ExceptionHandling\ExceptionPolicy.cs" />
+    <Compile Include="Common\Common\ExceptionHandling\IExceptionHandler.cs" />
+    <Compile Include="Common\Common\ExceptionHandling\LoggingExceptionHandler.cs" />
+    <Compile Include="Common\Common\ExceptionHandling\NotifyingExceptionHandler.cs" />
+    <Compile Include="Common\Common\ExceptionHandling\RollbackException.cs" />
+    <Compile Include="Common\Common\ExceptionHandling\VerificationFailedException.cs" />
+    <Compile Include="Common\Common\Extensibility\ExtensibleObjects.cs" />
+    <Compile Include="Common\Common\Extensibility\ExtensionCollection`1.cs" />
+    <Compile Include="Common\Common\Extensibility\ExtensionNameAttribute.cs" />
+    <Compile Include="Common\Common\Extensibility\IExtensibleObject`1.cs" />
+    <Compile Include="Common\Common\Extensibility\IExtensionCollection`1.cs" />
+    <Compile Include="Common\Common\Extensibility\IExtension`1.cs" />
+    <Compile Include="Common\Common\HashCode.cs" />
+    <Compile Include="Common\Common\HostUriBuilder.cs" />
+    <Compile Include="Common\Common\InvalidStateTransitionException.cs" />
+    <Compile Include="Common\Common\Invariant.cs" />
+    <Compile Include="Common\Common\IObjectSerializer.cs" />
+    <Compile Include="Common\Common\IO\Ace.cs" />
+    <Compile Include="Common\Common\IO\AceFlags.cs" />
+    <Compile Include="Common\Common\IO\AceType.cs" />
+    <Compile Include="Common\Common\IO\Csv.cs" />
+    <Compile Include="Common\Common\IO\DirectoryAdapter.cs" />
+    <Compile Include="Common\Common\IO\DirectoryBase.cs" />
+    <Compile Include="Common\Common\IO\DirectoryInfoAdapter.cs" />
+    <Compile Include="Common\Common\IO\DirectoryInfoBase.cs" />
+    <Compile Include="Common\Common\IO\DriveAdapter.cs" />
+    <Compile Include="Common\Common\IO\DriveBase.cs" />
+    <Compile Include="Common\Common\IO\DriveInfoAdapter.cs" />
+    <Compile Include="Common\Common\IO\DriveInfoBase.cs" />
+    <Compile Include="Common\Common\IO\FileAdapter.cs" />
+    <Compile Include="Common\Common\IO\FileBase.cs" />
+    <Compile Include="Common\Common\IO\FileInfoAdapter.cs" />
+    <Compile Include="Common\Common\IO\FileInfoBase.cs" />
+    <Compile Include="Common\Common\IO\FileSystem.cs" />
+    <Compile Include="Common\Common\IO\FileSystemInfoBase.cs" />
+    <Compile Include="Common\Common\IO\FileSystemObserver.cs" />
+    <Compile Include="Common\Common\IO\IFileSystem.cs" />
+    <Compile Include="Common\Common\IO\IFileSystemObserver.cs" />
+    <Compile Include="Common\Common\IO\ITransactions.cs" />
+    <Compile Include="Common\Common\IO\NetworkShareAdapter.cs" />
+    <Compile Include="Common\Common\IO\NetworkShareAdapterException.cs" />
+    <Compile Include="Common\Common\IO\NetworkShareBase.cs" />
+    <Compile Include="Common\Common\IO\NetworkShareInfo.cs" />
+    <Compile Include="Common\Common\IO\NetworkShareType.cs" />
+    <Compile Include="Common\Common\IO\PathUtility.cs" />
+    <Compile Include="Common\Common\IO\Transactions.cs" />
+    <Compile Include="Common\Common\IPollingService.cs" />
+    <Compile Include="Common\Common\LocalizedDescriptionAttribute.cs" />
+    <Compile Include="Common\Common\LoggerCategory.cs" />
+    <Compile Include="Common\Common\Logging\EventLog\Interface\ILogEntryConverter.cs" />
+    <Compile Include="Common\Common\Logging\EventLog\Interface\IReportingEventLogWriter.cs" />
+    <Compile Include="Common\Common\Logging\EventLog\LogEntryConverter.cs" />
+    <Compile Include="Common\Common\Logging\EventLog\ReportingEventLogWriter.cs" />
+    <Compile Include="Common\Common\Logging\File\ArchivingTextWriter.cs" />
+    <Compile Include="Common\Common\Logging\File\Interface\IArchivingTextWriter.cs" />
+    <Compile Include="Common\Common\Logging\File\Interface\ILogArchive.cs" />
+    <Compile Include="Common\Common\Logging\File\Interface\ILogArchiver.cs" />
+    <Compile Include="Common\Common\Logging\File\LogArchive.cs" />
+    <Compile Include="Common\Common\Logging\File\LogArchiver.cs" />
+    <Compile Include="Common\Common\Logging\File\NullTextWriter.cs" />
+    <Compile Include="Common\Common\Logging\IImmutableStack`1.cs" />
+    <Compile Include="Common\Common\Logging\ILogger.cs" />
+    <Compile Include="Common\Common\Logging\ImmutableLogicalOperationStack`1.cs" />
+    <Compile Include="Common\Common\Logging\Listener\ArchivingTraceListener.cs" />
+    <Compile Include="Common\Common\Logging\LogEntry.cs" />
+    <Compile Include="Common\Common\Logging\LoggerExtensions.cs" />
+    <Compile Include="Common\Common\Logging\LogicalOperation.cs" />
+    <Compile Include="Common\Common\Logging\LogMessageExtensions.cs" />
+    <Compile Include="Common\Common\Logging\TraceSourceLogger.cs" />
+    <Compile Include="Common\Common\Markup\FormattedMessage.cs" />
+    <Compile Include="Common\Common\NamedArgumentCollection.cs" />
+    <Compile Include="Common\Common\Net\CredentialUtils.cs" />
+    <Compile Include="Common\Common\Net\IPEndPointExtensions.cs" />
+    <Compile Include="Common\Common\Net\NativeMethods.cs" />
+    <Compile Include="Common\Common\Net\NetworkBrowser.cs" />
+    <Compile Include="Common\Common\Net\NetworkConnectionInfo.cs" />
+    <Compile Include="Common\Common\Net\NetworkInformation\IPing.cs" />
+    <Compile Include="Common\Common\Net\NetworkInformation\PingWrapper.cs" />
+    <Compile Include="Common\Common\Net\_SERVER_INFO_100.cs" />
+    <Compile Include="Common\Common\OperatingSystemExtensions.cs" />
+    <Compile Include="Common\Common\OuterJoinExtensionMethods.cs" />
+    <Compile Include="Common\Common\OuterJoinResult`2.cs" />
+    <Compile Include="Common\Common\OuterJoin`2.cs" />
+    <Compile Include="Common\Common\PathHelpers.cs" />
+    <Compile Include="Common\Common\Presentation\ResourceHelper.cs" />
+    <Compile Include="Common\Common\Properties\Resources.cs" />
+    <Compile Include="Common\Common\Properties\Settings.cs" />
+    <Compile Include="Common\Common\Properties\SharedResources.cs" />
+    <Compile Include="Common\Common\RangeBoundaryType.cs" />
+    <Compile Include="Common\Common\Range_T.cs" />
+    <Compile Include="Common\Common\ReaderWriterLockSlimExtensions.cs" />
+    <Compile Include="Common\Common\Reflect.cs" />
+    <Compile Include="Common\Common\Reflection\ReflectionExtensions.cs" />
+    <Compile Include="Common\Common\RelativeFolder.cs" />
+    <Compile Include="Common\Common\RelativeSubfolder.cs" />
+    <Compile Include="Common\Common\Service\NativeMethods.cs" />
+    <Compile Include="Common\Common\Service\ServiceBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\Common\Service\ServiceState.cs" />
+    <Compile Include="Common\Common\Service\Win32ServiceStatus.cs" />
+    <Compile Include="Common\Common\SmartUri.cs" />
+    <Compile Include="Common\Common\SmtpClientEx.cs" />
+    <Compile Include="Common\Common\SpecialCharacters.cs" />
+    <Compile Include="Common\Common\StringResources\InstallResources.cs" />
+    <Compile Include="Common\Common\Tasks\ActionResult.cs" />
+    <Compile Include="Common\Common\Tasks\ActivityCompletionStatus.cs" />
+    <Compile Include="Common\Common\Tasks\ActivityStatusEntry.cs" />
+    <Compile Include="Common\Common\Tasks\ActivityToken.cs" />
+    <Compile Include="Common\Common\Tasks\Schedulers\LimitedConcurrencyLevelTaskScheduler.cs" />
+    <Compile Include="Common\Common\Tasks\Schedulers\OrderedTaskScheduler.cs" />
+    <Compile Include="Common\Common\Tasks\Schedulers\SingleThreadedTaskScheduler.cs" />
+    <Compile Include="Common\Common\Tasks\TaskCompletionSourceExtensions.cs" />
+    <Compile Include="Common\Common\Tasks\TaskConstants.cs" />
+    <Compile Include="Common\Common\Tasks\TaskConstants_t.cs" />
+    <Compile Include="Common\Common\Tasks\TaskExtensions.cs" />
+    <Compile Include="Common\Common\Tasks\TaskMarshallingExtensions.cs" />
+    <Compile Include="Common\Common\Threading\AsyncMutex.cs" />
+    <Compile Include="Common\Common\Threading\AsyncSemaphore.cs" />
+    <Compile Include="Common\Common\Threading\DeferrableOperation.cs" />
+    <Compile Include="Common\Common\Threading\Deferral.cs" />
+    <Compile Include="Common\Common\TripleDesCryptor.cs" />
+    <Compile Include="Common\Common\UnnamedArgumentCollection.cs" />
+    <Compile Include="Common\Common\UriExtensions.cs" />
+    <Compile Include="Common\Common\Win32\StorageQueryUtil.cs" />
+    <Compile Include="Common\ComponentModel\IReactiveObject.cs" />
+    <Compile Include="Common\ComponentModel\IReactiveValue`1.cs" />
+    <Compile Include="Common\ComponentModel\PropertyChangedEventInfo.cs" />
+    <Compile Include="Common\ComponentModel\PropertyChangedEventInfo`1.cs" />
+    <Compile Include="Common\ComponentModel\ReactiveObject.cs" />
+    <Compile Include="Common\Settings\CoreEngineSettings.cs" />
+    <Compile Include="Common\Linq\EnumerableExtensions.cs" />
+    <Compile Include="Common\Linq\KeyedComparer_T, TKey_.cs" />
+    <Compile Include="Common\Linq\KeyedEqualityComparer_T, TKey_.cs" />
+    <Compile Include="Common\Linq\ObservableExtensions.cs" />
+    <Compile Include="Common\Reactive\Linq\ObservableTimers.cs" />
+    <Compile Include="Common\Settings\Interfaces\ICoreEngineSettings.cs" />
+    <Compile Include="Common\Win32\Registry.cs" />
+    <Compile Include="Common\Win32\RegistryHive.cs" />
+    <Compile Include="Common\Win32\RegistryKey.cs" />
+    <Compile Include="Common\Win32\SafeHandles\SafeRegistryHandle.cs" />
+    <Compile Include="Common\Win32\Win32Native.cs" />
+    <Compile Include="Common\Win32\Win32Utils.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceBase\OculiServiceLogger.cs" />
+    <Compile Include="ServiceBase\OculiService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ServiceBase\OculiServiceLoader.cs" />
+    <Compile Include="ServiceBase\OculiServiceLogTraceListener.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

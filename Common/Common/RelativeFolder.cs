@@ -1,0 +1,36 @@
+﻿namespace OculiService.Common
+{
+  public enum RelativeFolder
+  {
+    Desktop = 0,
+    Programs = 2,
+    MyDocuments = 5,
+    Personal = 5,
+    Favorites = 6,
+    Startup = 7,
+    Recent = 8,
+    SendTo = 9,
+    StartMenu = 11,
+    MyMusic = 13,
+    DesktopDirectory = 16,
+    MyComputer = 17,
+    Templates = 21,
+    ApplicationData = 26,
+    LocalApplicationData = 28,
+    InternetCache = 32,
+    Cookies = 33,
+    History = 34,
+    CommonApplicationData = 35,
+    System = 37,
+    ProgramFiles = 38,
+    MyPictures = 39,
+    CommonProgramFiles = 43,
+    Current = 80,
+    Application = 81,
+    ProductApplicationData = 282,
+    ProductLocalApplicationData = 284,
+    ProductCommonApplicationData = 291,
+    ProductProgramFiles = 294,
+    ProductCommonProgramFiles = 299,
+  }
+}

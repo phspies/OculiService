@@ -1,0 +1,624 @@
+[06/02/2017 23:02:32.222] Information: This is a test message (PID:26580, TID:7, AID:85d22ba6-ca94-4f63-9c3c-b48481ab64e1 - Starting Oculi Service)
+[06/03/2017 03:36:50.578] Information: This is a test message (PID:24632, TID:7, AID:5680ad3d-0835-449b-81cb-2597e378dc80 - Starting Oculi Service)
+[06/03/2017 03:38:34.285] Information: This is a test message (PID:24092, TID:10, AID:1e14a48d-9ee7-4d46-bb26-85241135b2af - Starting Oculi Service)
+[06/03/2017 04:09:24.094] Information: This is a test message (PID:15472, TID:10, AID:8b078c15-25ad-4faf-8af7-f4391b9a551f - Starting Oculi Service)
+[06/03/2017 04:14:50.027] Information: This is a test message (PID:26764, TID:9, AID:67d519db-9826-4a05-b5b6-41a3fed1f22a - Starting Oculi Service)
+[06/03/2017 04:15:30.516] Critical: Unhandled exception while loading the Oculi Service--System.Exception: NotFound 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[type](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Classes\OculiApiCore.cs:line 115
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PostOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Classes\OculiApiCore.cs:line 28
+       at OculiService.CloudProviders.Oculi.OculiOAuth.SignIn() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Classes\OculiOAuth.cs:line 21
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 39
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:26764, TID:9, AID:67d519db-9826-4a05-b5b6-41a3fed1f22a - Starting Oculi Service)
+[06/03/2017 04:15:30.620] Critical: System.Exception: NotFound 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[type](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Classes\OculiApiCore.cs:line 115
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PostOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Classes\OculiApiCore.cs:line 28
+       at OculiService.CloudProviders.Oculi.OculiOAuth.SignIn() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Classes\OculiOAuth.cs:line 21
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 39
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch()
+       at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback() (PID:26764, TID:9, AID:67d519db-9826-4a05-b5b6-41a3fed1f22a - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/03/2017 04:16:33.907] Information: This is a test message (PID:21216, TID:9, AID:4034f089-8aea-4ff4-b3bb-a3097177a4a7 - Starting Oculi Service)
+[06/03/2017 04:20:20.704] Information: This is a test message (PID:17340, TID:10, AID:9051e590-2040-4841-84e5-6f34d15b697e - Starting Oculi Service)
+[06/03/2017 04:21:04.653] Information: This is a test message (PID:3120, TID:10, AID:a221c688-d675-4cd1-a522-b163c02311ef - Starting Oculi Service)
+[06/03/2017 04:21:36.173] Information: This is a test message (PID:6872, TID:6, AID:e30eb340-acac-47da-8eb8-60744bb26cdf - Starting Oculi Service)
+[06/03/2017 04:25:45.158] Information: This is a test message (PID:26548, TID:6, AID:a351f202-7082-45b4-82ae-59f567138939 - Starting Oculi Service)
+[06/03/2017 04:26:34.078] Information: This is a test message (PID:22780, TID:7, AID:27f48190-e551-43dd-8557-767e805ec667 - Starting Oculi Service)
+[06/03/2017 04:31:06.412] Information: This is a test message (PID:24136, TID:6, AID:e8cc5396-6a96-4ae4-98f3-bf25e4ea9819 - Starting Oculi Service)
+[06/03/2017 04:32:09.538] Information: This is a test message (PID:25080, TID:6, AID:5990fe8a-ef89-4063-9d45-bb41b50857f0 - Starting Oculi Service)
+[06/03/2017 04:32:52.384] Information: This is a test message (PID:4844, TID:6, AID:a011749c-d474-4e12-9739-8a16d2a15657 - Starting Oculi Service)
+[06/03/2017 04:34:24.413] Information: This is a test message (PID:1336, TID:9, AID:4e4dc45c-27e1-4402-8c52-185fd680256d - Starting Oculi Service)
+[06/03/2017 05:16:02.941] Information: This is a test message (PID:20300, TID:11, AID:59359e8e-54ec-4d3d-81c3-13834fad69ac - Starting Oculi Service)
+[06/03/2017 18:23:52.063] Information: This is a test message (PID:20452, TID:10, AID:e516584b-3d7b-4f32-9199-d021053dfb52 - Starting Oculi Service)
+[06/03/2017 18:25:22.237] Information: This is a test message (PID:25620, TID:7, AID:450c431a-670e-4303-adc0-8dfa1fe66cae - Starting Oculi Service)
+[06/03/2017 18:26:52.135] Information: This is a test message (PID:26984, TID:9, AID:4355f2d5-5d0c-4e71-abbb-499739b5116c - Starting Oculi Service)
+[06/03/2017 18:33:25.204] Information: This is a test message (PID:22480, TID:10, AID:affdfcec-fc40-4e9b-9258-1fdab1859582 - Starting Oculi Service)
+[06/03/2017 18:35:24.954] Information: This is a test message (PID:8804, TID:9, AID:f2f98a5f-ba8c-431d-b008-d736efe0d3af - Starting Oculi Service)
+[06/03/2017 23:20:50.738] Information: This is a test message (PID:13868, TID:10, AID:3990f99c-366f-4e1a-b4c5-047ce84a97d7 - Starting Oculi Service)
+[06/03/2017 23:26:19.544] Information: This is a test message (PID:27056, TID:11, AID:54e31b78-3f21-4d44-af37-f9ce8ff60878 - Starting Oculi Service)
+[06/03/2017 23:34:15.557] Information: This is a test message (PID:24152, TID:8, AID:43269dd6-785d-4e7e-b2f0-7d0a4b8860c0 - Starting Oculi Service)
+[06/03/2017 23:36:25.986] Information: CoreEngine ID:  (PID:24152, TID:8, AID:43269dd6-785d-4e7e-b2f0-7d0a4b8860c0 - Starting Oculi Service)
+[06/03/2017 23:38:00.334] Information: This is a test message (PID:7556, TID:6, AID:7509686f-22f6-468f-9fab-bf152778d084 - Starting Oculi Service)
+[06/03/2017 23:38:00.382] Information: CoreEngine ID:  (PID:7556, TID:6, AID:7509686f-22f6-468f-9fab-bf152778d084 - Starting Oculi Service)
+[06/05/2017 13:49:27.229] Information: This is a test message (PID:24420, TID:6, AID:5c3469e7-5937-4a6c-8093-6323b5316f31 - Starting Oculi Service)
+[06/05/2017 13:51:27.827] Error: Missing authentication attributes ,,, (PID:24420, TID:6, AID:5c3469e7-5937-4a6c-8093-6323b5316f31 - Starting Oculi Service)
+[06/05/2017 13:53:23.851] Error: Missing authentication attributes System.String,System.String,System.String,System.String (PID:24420, TID:6, AID:5c3469e7-5937-4a6c-8093-6323b5316f31 - Starting Oculi Service)
+[06/05/2017 13:55:31.006] Information: This is a test message (PID:17916, TID:6, AID:ca0d2077-2499-430d-b0ef-41ac1ff81ba2 - Starting Oculi Service)
+[06/05/2017 13:56:03.044] Error: Missing authentication attributes System.CharEnumerator,System.CharEnumerator,System.CharEnumerator,System.CharEnumerator (PID:17916, TID:6, AID:ca0d2077-2499-430d-b0ef-41ac1ff81ba2 - Starting Oculi Service)
+[06/05/2017 13:59:11.361] Information: This is a test message (PID:31180, TID:10, AID:5b7db0cc-abff-4f44-907a-8eec88397a94 - Starting Oculi Service)
+[06/05/2017 14:00:24.488] Information: This is a test message (PID:25344, TID:10, AID:ecf71dd7-c1b1-42ee-974c-90f31e910faf - Starting Oculi Service)
+[06/05/2017 14:00:26.724] Error: Missing authentication attributes ,,, (PID:25344, TID:10, AID:ecf71dd7-c1b1-42ee-974c-90f31e910faf - Starting Oculi Service)
+[06/05/2017 14:12:28.120] Information: This is a test message (PID:28360, TID:10, AID:00ccdec7-70db-4305-83f4-b145819f34ce - Starting Oculi Service)
+[06/05/2017 14:17:08.507] Information: This is a test message (PID:29880, TID:9, AID:f79832fe-e331-47b3-b0e2-6cff9042de5e - Starting Oculi Service)
+[06/05/2017 14:17:40.492] Information: This is a test message (PID:26720, TID:6, AID:a9c4d292-c04e-401b-be25-c1456067888e - Starting Oculi Service)
+[06/05/2017 14:19:24.538] Information: This is a test message (PID:29992, TID:10, AID:6dfd4bf8-efb2-41f6-9db9-c5e55e612ab6 - Starting Oculi Service)
+[06/05/2017 14:19:46.823] Information: This is a test message (PID:31452, TID:7, AID:69f648a2-70b0-4970-b3ac-b98f87501504 - Starting Oculi Service)
+[06/05/2017 14:21:38.015] Information: This is a test message (PID:25272, TID:11, AID:a5c7acc9-b0e8-4083-b7aa-31c855d98898 - Starting Oculi Service)
+[06/05/2017 14:29:06.109] Information: This is a test message (PID:27824, TID:10, AID:f4720c95-7412-466e-9690-2ef002edbf7f - Starting Oculi Service)
+[06/05/2017 14:41:45.657] Information: This is a test message (PID:29640, TID:9, AID:2dbaa935-e051-4df6-9719-0f0aac76e77f - Starting Oculi Service)
+[06/05/2017 14:41:45.917] Critical: Unhandled exception while loading the Oculi Service--System.NullReferenceException: Object reference not set to an instance of an object.
+       at OculiService.Common.AttributeHelpers.GetPropValue(Object src, String propName) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\AttributeHelpers.cs:line 24
+       at OculiService.CloudProviders.Oculi.OculiOAuth2.SignIn(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiOAuth2.cs:line 37
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.SetRequest(ILogger _logger, OculiApi _oculi_api, RestRequest _request, OculiOAuth2Token _token, IRestResponse _rest_response) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 25
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 78
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:29640, TID:9, AID:2dbaa935-e051-4df6-9719-0f0aac76e77f - Starting Oculi Service)
+[06/05/2017 14:41:45.961] Critical: System.NullReferenceException: Object reference not set to an instance of an object.
+       at OculiService.Common.AttributeHelpers.GetPropValue(Object src, String propName) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\AttributeHelpers.cs:line 24
+       at OculiService.CloudProviders.Oculi.OculiOAuth2.SignIn(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiOAuth2.cs:line 37
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.SetRequest(ILogger _logger, OculiApi _oculi_api, RestRequest _request, OculiOAuth2Token _token, IRestResponse _rest_response) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 25
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 78
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:29640, TID:9, AID:2dbaa935-e051-4df6-9719-0f0aac76e77f - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/05/2017 14:42:30.533] Information: This is a test message (PID:28528, TID:6, AID:cb1c52b1-2214-4280-ac00-251d6cff67fc - Starting Oculi Service)
+[06/05/2017 14:45:36.208] Information: This is a test message (PID:24312, TID:9, AID:58a65211-bec0-4aa6-bcdd-5327beaf5dbd - Starting Oculi Service)
+[06/05/2017 14:45:36.320] Error: Missing authentication attributes CoreEngineID,OrganizationID,AccessKey,SecretKey (PID:24312, TID:9, AID:58a65211-bec0-4aa6-bcdd-5327beaf5dbd - Starting Oculi Service)
+[06/05/2017 14:46:37.184] Error: Missing authentication attributes CoreEngineID, OrganizationID, AccessKey, SecretKey (PID:24312, TID:9, AID:58a65211-bec0-4aa6-bcdd-5327beaf5dbd - Starting Oculi Service)
+[06/05/2017 14:46:47.195] Error: Missing authentication attributes CoreEngineID, OrganizationID, AccessKey, SecretKey (PID:24312, TID:9, AID:58a65211-bec0-4aa6-bcdd-5327beaf5dbd - Starting Oculi Service)
+[06/05/2017 14:46:57.197] Error: Missing authentication attributes CoreEngineID, OrganizationID, AccessKey, SecretKey (PID:24312, TID:9, AID:58a65211-bec0-4aa6-bcdd-5327beaf5dbd - Starting Oculi Service)
+[06/05/2017 14:47:07.199] Error: Missing authentication attributes CoreEngineID, OrganizationID, AccessKey, SecretKey (PID:24312, TID:9, AID:58a65211-bec0-4aa6-bcdd-5327beaf5dbd - Starting Oculi Service)
+[06/05/2017 14:47:17.201] Error: Missing authentication attributes CoreEngineID, OrganizationID, AccessKey, SecretKey (PID:24312, TID:9, AID:58a65211-bec0-4aa6-bcdd-5327beaf5dbd - Starting Oculi Service)
+[06/05/2017 14:47:27.204] Error: Missing authentication attributes CoreEngineID, OrganizationID, AccessKey, SecretKey (PID:24312, TID:9, AID:58a65211-bec0-4aa6-bcdd-5327beaf5dbd - Starting Oculi Service)
+[06/05/2017 14:47:37.210] Error: Missing authentication attributes CoreEngineID, OrganizationID, AccessKey, SecretKey (PID:24312, TID:9, AID:58a65211-bec0-4aa6-bcdd-5327beaf5dbd - Starting Oculi Service)
+[06/05/2017 14:47:47.213] Error: Missing authentication attributes CoreEngineID, OrganizationID, AccessKey, SecretKey (PID:24312, TID:9, AID:58a65211-bec0-4aa6-bcdd-5327beaf5dbd - Starting Oculi Service)
+[06/05/2017 14:48:49.533] Information: This is a test message (PID:10032, TID:6, AID:a6943a0b-7961-4949-98a1-e9f93f16861d - Starting Oculi Service)
+[06/05/2017 14:48:49.612] Error: Missing authentication attributes AccessKey, SecretKey (PID:10032, TID:6, AID:a6943a0b-7961-4949-98a1-e9f93f16861d - Starting Oculi Service)
+[06/05/2017 14:48:59.615] Error: Missing authentication attributes AccessKey, SecretKey (PID:10032, TID:6, AID:a6943a0b-7961-4949-98a1-e9f93f16861d - Starting Oculi Service)
+[06/05/2017 14:49:09.617] Error: Missing authentication attributes AccessKey, SecretKey (PID:10032, TID:6, AID:a6943a0b-7961-4949-98a1-e9f93f16861d - Starting Oculi Service)
+[06/05/2017 14:49:19.619] Error: Missing authentication attributes SecretKey (PID:10032, TID:6, AID:a6943a0b-7961-4949-98a1-e9f93f16861d - Starting Oculi Service)
+[06/05/2017 14:49:29.621] Error: Missing authentication attributes SecretKey (PID:10032, TID:6, AID:a6943a0b-7961-4949-98a1-e9f93f16861d - Starting Oculi Service)
+[06/05/2017 14:56:26.869] Information: This is a test message (PID:25240, TID:10, AID:0d4354dd-8c9e-4cb8-b18b-70ed27a1fd6f - Starting Oculi Service)
+[06/05/2017 14:56:27.668] Critical: Unhandled exception while loading the Oculi Service--System.Exception: NotFound 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 133
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:25240, TID:10, AID:0d4354dd-8c9e-4cb8-b18b-70ed27a1fd6f - Starting Oculi Service)
+[06/05/2017 14:56:27.748] Critical: System.Exception: NotFound 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 133
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:25240, TID:10, AID:0d4354dd-8c9e-4cb8-b18b-70ed27a1fd6f - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/05/2017 14:56:57.538] Information: This is a test message (PID:11476, TID:6, AID:789860ea-583f-410f-b10e-92f0449f8a67 - Starting Oculi Service)
+[06/05/2017 14:58:29.321] Information: This is a test message (PID:7892, TID:6, AID:c06482f1-0fad-40a1-84ea-11b818617e32 - Starting Oculi Service)
+[06/05/2017 15:03:59.262] Information: This is a test message (PID:24872, TID:11, AID:9e7be527-0dca-4191-ace7-716da9241b8a - Starting Oculi Service)
+[06/05/2017 16:05:47.554] Information: This is a test message (PID:19896, TID:10, AID:c8713f1a-e3c9-4cd2-9ae2-e638f9864e70 - Starting Oculi Service)
+[06/05/2017 16:24:57.512] Information: This is a test message (PID:28720, TID:10, AID:9c13fd84-7f55-4ed5-a3bf-a21285a8acc8 - Starting Oculi Service)
+[06/05/2017 16:26:30.635] Information: This is a test message (PID:24116, TID:7, AID:4cbc9f6c-63ac-412e-964b-eb78ad46238b - Starting Oculi Service)
+[06/05/2017 16:28:42.611] Information: This is a test message (PID:29664, TID:7, AID:5156aafb-4306-4587-baf3-4942ecb5b450 - Starting Oculi Service)
+[06/05/2017 16:54:18.769] Information: This is a test message (PID:18476, TID:11, AID:c4a141cc-cfc5-4d36-8e70-f8e29de7f05d - Starting Oculi Service)
+[06/05/2017 17:11:26.165] Information: This is a test message (PID:20272, TID:9, AID:6df3440f-f782-47e6-8b09-59bb02ce31d5 - Starting Oculi Service)
+[06/05/2017 17:21:04.780] Information: This is a test message (PID:19884, TID:7, AID:ab26195d-0404-45a8-bc79-0dc80b695cee - Starting Oculi Service)
+[06/05/2017 17:36:54.727] Information: This is a test message (PID:21700, TID:7, AID:8004dd0d-569a-4aa2-a08b-739e162ba56e - Starting Oculi Service)
+[06/05/2017 20:59:39.097] Information: This is a test message (PID:26808, TID:10, AID:699354e8-8638-4cb6-8ae8-d243dc018257 - Starting Oculi Service)
+[06/05/2017 21:36:07.295] Information: This is a test message (PID:7388, TID:11, AID:bcddee4e-2cce-441f-9686-0b7f50abc3fe - Starting Oculi Service)
+[06/05/2017 21:46:55.034] Information: This is a test message (PID:8908, TID:11, AID:06c0caaa-c2fd-4e2e-8f0d-f2db8fe34fbd - Starting Oculi Service)
+[06/05/2017 21:49:31.113] Information: This is a test message (PID:27868, TID:11, AID:e0d75e94-89bf-4aba-b4a4-a0fe0f5e9d36 - Starting Oculi Service)
+[06/05/2017 21:52:25.013] Information: This is a test message (PID:22012, TID:7, AID:d6c8781e-0277-4b59-a66e-e58697f8a279 - Starting Oculi Service)
+[06/05/2017 22:00:54.514] Information: This is a test message (PID:14820, TID:11, AID:83c96858-4e67-4439-8bd9-7fb105ee55ea - Starting Oculi Service)
+[06/05/2017 22:01:39.390] Information: This is a test message (PID:17844, TID:10, AID:7673ed3b-52c3-4513-bf06-3e7bc5b42520 - Starting Oculi Service)
+[06/05/2017 22:02:42.722] Information: This is a test message (PID:30348, TID:10, AID:0295dabf-eb29-4678-be53-fc4247c129cd - Starting Oculi Service)
+[06/06/2017 12:38:24.133] Information: This is a test message (PID:31184, TID:9, AID:23c195b5-3bb0-4a90-91cc-0d96954a6949 - Starting Oculi Service)
+[06/06/2017 12:41:10.082] Information: This is a test message (PID:24476, TID:6, AID:6f44d0c0-495a-4366-ba47-ff69d31db7e9 - Starting Oculi Service)
+[06/06/2017 12:42:01.396] Information: This is a test message (PID:21012, TID:6, AID:24f9559a-bf9f-490f-986c-2590be430370 - Starting Oculi Service)
+[06/06/2017 12:44:45.770] Information: This is a test message (PID:628, TID:10, AID:52543177-9759-4dbc-81e7-9bb67fb0ed84 - Starting Oculi Service)
+[06/06/2017 12:59:03.771] Information: This is a test message (PID:27400, TID:10, AID:f8a7b684-9047-41d6-a4f2-5a661691e7aa - Starting Oculi Service)
+[06/06/2017 13:00:17.133] Information: This is a test message (PID:16720, TID:6, AID:a76b6e50-a847-4e52-8382-b5c9133a88d3 - Starting Oculi Service)
+[06/06/2017 13:03:00.269] Information: This is a test message (PID:8548, TID:9, AID:ace71ae4-fcf2-419c-9a50-ca6cd0ee8e34 - Starting Oculi Service)
+[06/06/2017 13:04:15.848] Information: This is a test message (PID:30840, TID:9, AID:1654ad1b-5c2e-4c88-b66d-d9a58c5d1ad5 - Starting Oculi Service)
+[06/06/2017 13:05:36.775] Information: This is a test message (PID:27764, TID:6, AID:1ebd5664-68bb-4086-a43f-8e1c1a18511d - Starting Oculi Service)
+[06/06/2017 13:13:04.516] Information: This is a test message (PID:30304, TID:6, AID:c84cf99d-64af-4186-aa57-0c9eb7d071f4 - Starting Oculi Service)
+[06/06/2017 13:30:45.746] Critical: Unhandled exception while loading the Oculi Service--System.Exception: NotFound 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 140
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:30304, TID:6, AID:c84cf99d-64af-4186-aa57-0c9eb7d071f4 - Starting Oculi Service)
+[06/06/2017 13:30:45.777] Critical: System.Exception: NotFound 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 140
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:30304, TID:6, AID:c84cf99d-64af-4186-aa57-0c9eb7d071f4 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 13:31:29.327] Critical: System.Exception: NotFound 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 140
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:30304, TID:6, AID:c84cf99d-64af-4186-aa57-0c9eb7d071f4 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 13:31:45.002] Information: This is a test message (PID:26632, TID:6, AID:03a8ecf0-a074-4fd1-a49b-2374254d3128 - Starting Oculi Service)
+[06/06/2017 13:31:50.569] Critical: Unhandled exception while loading the Oculi Service--System.ArgumentNullException: String reference not set to an instance of a String.
+    Parameter name: s
+       at System.Text.Encoding.GetBytes(String s)
+       at OculiService.Common.TripleDesCryptor.Encrypt(String toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\TripleDesCryptor.cs:line 27
+       at OculiService.Common.Cryptor.EncryptTripleDES(String clear) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Cryptor.cs:line 64
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.ApplyCryptor(OculiOAuth2Token toEncrypt, Func`2 cryptor) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 43
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.EncryptTripleDES(OculiOAuth2Token toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 31
+       at OculiService.Common.Encryption.TripleDESOAuth2TokenCryptor.Encrypt(OculiOAuth2Token plain) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\TripleDESOAuth2TokenCryptor.cs:line 10
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.StoreToken(OculiOAuth2Token _token) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOAuth2.SignIn(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiOAuth2.cs:line 53
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 119
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:26632, TID:6, AID:03a8ecf0-a074-4fd1-a49b-2374254d3128 - Starting Oculi Service)
+[06/06/2017 13:31:50.607] Critical: System.ArgumentNullException: String reference not set to an instance of a String.
+    Parameter name: s
+       at System.Text.Encoding.GetBytes(String s)
+       at OculiService.Common.TripleDesCryptor.Encrypt(String toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\TripleDesCryptor.cs:line 27
+       at OculiService.Common.Cryptor.EncryptTripleDES(String clear) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Cryptor.cs:line 64
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.ApplyCryptor(OculiOAuth2Token toEncrypt, Func`2 cryptor) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 43
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.EncryptTripleDES(OculiOAuth2Token toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 31
+       at OculiService.Common.Encryption.TripleDESOAuth2TokenCryptor.Encrypt(OculiOAuth2Token plain) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\TripleDESOAuth2TokenCryptor.cs:line 10
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.StoreToken(OculiOAuth2Token _token) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOAuth2.SignIn(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiOAuth2.cs:line 53
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 119
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:26632, TID:6, AID:03a8ecf0-a074-4fd1-a49b-2374254d3128 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 13:36:11.556] Information: This is a test message (PID:11580, TID:10, AID:9be44536-b186-483d-a098-a9fc8dc6c7c3 - Starting Oculi Service)
+[06/06/2017 13:36:17.405] Critical: Unhandled exception while loading the Oculi Service--System.ArgumentNullException: String reference not set to an instance of a String.
+    Parameter name: s
+       at System.Text.Encoding.GetBytes(String s)
+       at OculiService.Common.TripleDesCryptor.Encrypt(String toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\TripleDesCryptor.cs:line 27
+       at OculiService.Common.Cryptor.EncryptTripleDES(String clear) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Cryptor.cs:line 64
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.ApplyCryptor(OculiOAuth2Token toEncrypt, Func`2 cryptor) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 43
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.EncryptTripleDES(OculiOAuth2Token toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 31
+       at OculiService.Common.Encryption.TripleDESOAuth2TokenCryptor.Encrypt(OculiOAuth2Token plain) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\TripleDESOAuth2TokenCryptor.cs:line 10
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.StoreToken(OculiOAuth2Token _token) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOAuth2.SignIn(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiOAuth2.cs:line 53
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 119
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:11580, TID:10, AID:9be44536-b186-483d-a098-a9fc8dc6c7c3 - Starting Oculi Service)
+[06/06/2017 13:36:17.541] Critical: System.ArgumentNullException: String reference not set to an instance of a String.
+    Parameter name: s
+       at System.Text.Encoding.GetBytes(String s)
+       at OculiService.Common.TripleDesCryptor.Encrypt(String toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\TripleDesCryptor.cs:line 27
+       at OculiService.Common.Cryptor.EncryptTripleDES(String clear) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Cryptor.cs:line 64
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.ApplyCryptor(OculiOAuth2Token toEncrypt, Func`2 cryptor) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 43
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.EncryptTripleDES(OculiOAuth2Token toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 31
+       at OculiService.Common.Encryption.TripleDESOAuth2TokenCryptor.Encrypt(OculiOAuth2Token plain) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\TripleDESOAuth2TokenCryptor.cs:line 10
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.StoreToken(OculiOAuth2Token _token) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOAuth2.SignIn(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiOAuth2.cs:line 53
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 119
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:11580, TID:10, AID:9be44536-b186-483d-a098-a9fc8dc6c7c3 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 13:37:16.145] Information: This is a test message (PID:30124, TID:10, AID:506cd0be-d303-4627-bc7c-4315d2c33da8 - Starting Oculi Service)
+[06/06/2017 13:37:21.399] Critical: Unhandled exception while loading the Oculi Service--System.ArgumentNullException: String reference not set to an instance of a String.
+    Parameter name: s
+       at System.Text.Encoding.GetBytes(String s)
+       at OculiService.Common.TripleDesCryptor.Encrypt(String toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\TripleDesCryptor.cs:line 27
+       at OculiService.Common.Cryptor.EncryptTripleDES(String clear) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Cryptor.cs:line 64
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.ApplyCryptor(OculiOAuth2Token toEncrypt, Func`2 cryptor) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 43
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.EncryptTripleDES(OculiOAuth2Token toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 31
+       at OculiService.Common.Encryption.TripleDESOAuth2TokenCryptor.Encrypt(OculiOAuth2Token plain) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\TripleDESOAuth2TokenCryptor.cs:line 10
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.StoreToken(OculiOAuth2Token _token) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOAuth2.SignIn(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiOAuth2.cs:line 53
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 119
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:30124, TID:10, AID:506cd0be-d303-4627-bc7c-4315d2c33da8 - Starting Oculi Service)
+[06/06/2017 13:37:21.433] Critical: System.ArgumentNullException: String reference not set to an instance of a String.
+    Parameter name: s
+       at System.Text.Encoding.GetBytes(String s)
+       at OculiService.Common.TripleDesCryptor.Encrypt(String toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\TripleDesCryptor.cs:line 27
+       at OculiService.Common.Cryptor.EncryptTripleDES(String clear) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Cryptor.cs:line 64
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.ApplyCryptor(OculiOAuth2Token toEncrypt, Func`2 cryptor) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 43
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.EncryptTripleDES(OculiOAuth2Token toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 31
+       at OculiService.Common.Encryption.TripleDESOAuth2TokenCryptor.Encrypt(OculiOAuth2Token plain) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\TripleDESOAuth2TokenCryptor.cs:line 10
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.StoreToken(OculiOAuth2Token _token) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOAuth2.SignIn(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiOAuth2.cs:line 53
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 119
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:30124, TID:10, AID:506cd0be-d303-4627-bc7c-4315d2c33da8 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 13:47:32.643] Information: This is a test message (PID:30284, TID:10, AID:aef0d540-b8ad-42c0-9ce6-c8cb0fa1c753 - Starting Oculi Service)
+[06/06/2017 14:00:52.219] Information: This is a test message (PID:26456, TID:10, AID:a39fddea-c959-4e9b-85b9-be2d930fab2e - Starting Oculi Service)
+[06/06/2017 14:05:36.129] Information: This is a test message (PID:30340, TID:11, AID:f8fcc640-a911-47e6-b4d5-ceb5f683a388 - Starting Oculi Service)
+[06/06/2017 14:05:36.437] Critical: Unhandled exception while loading the Oculi Service--System.NullReferenceException: Object reference not set to an instance of an object.
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.SetTokenRequest(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 30
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 90
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:30340, TID:11, AID:f8fcc640-a911-47e6-b4d5-ceb5f683a388 - Starting Oculi Service)
+[06/06/2017 14:05:36.514] Critical: System.NullReferenceException: Object reference not set to an instance of an object.
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.SetTokenRequest(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 30
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 90
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:30340, TID:11, AID:f8fcc640-a911-47e6-b4d5-ceb5f683a388 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 14:06:06.856] Information: This is a test message (PID:30856, TID:6, AID:1c65f18b-31be-4e35-9d67-c86a8248f9f4 - Starting Oculi Service)
+[06/06/2017 14:27:28.679] Information: This is a test message (PID:31548, TID:10, AID:447c86dd-f39d-47e7-b9aa-f26c3c3668e0 - Starting Oculi Service)
+[06/06/2017 14:37:51.140] Information: This is a test message (PID:24736, TID:10, AID:f6f8d048-9d57-47a0-8cf9-b35921ebfbb6 - Starting Oculi Service)
+[06/06/2017 15:02:03.052] Information: This is a test message (PID:24220, TID:6, AID:15802853-887e-412d-8e0b-a89acb9875fa - Starting Oculi Service)
+[06/06/2017 15:02:03.341] Critical: Unhandled exception while loading the Oculi Service--System.ArgumentException: The value "1499193475" is not of type "System.String" and cannot be used in this generic collection.
+    Parameter name: value
+       at System.ThrowHelper.ThrowWrongValueTypeArgumentException(Object value, Type targetType)
+       at System.Collections.Generic.Dictionary`2.System.Collections.IDictionary.Add(Object key, Object value)
+       at OculiService.Common.Collections.Generic.Util.AddOrReplace(IDictionary data, Object key, Object value) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Collections\Generic\Util.cs:line 54
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.SetTokenRequest(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 38
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 90
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:24220, TID:6, AID:15802853-887e-412d-8e0b-a89acb9875fa - Starting Oculi Service)
+[06/06/2017 15:02:03.393] Critical: System.ArgumentException: The value "1499193475" is not of type "System.String" and cannot be used in this generic collection.
+    Parameter name: value
+       at System.ThrowHelper.ThrowWrongValueTypeArgumentException(Object value, Type targetType)
+       at System.Collections.Generic.Dictionary`2.System.Collections.IDictionary.Add(Object key, Object value)
+       at OculiService.Common.Collections.Generic.Util.AddOrReplace(IDictionary data, Object key, Object value) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Collections\Generic\Util.cs:line 54
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.SetTokenRequest(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 38
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 90
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:24220, TID:6, AID:15802853-887e-412d-8e0b-a89acb9875fa - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 15:02:51.751] Information: This is a test message (PID:13992, TID:7, AID:1d410648-6c25-4340-87d4-b12bf519981c - Starting Oculi Service)
+[06/06/2017 15:19:36.597] Information: This is a test message (PID:25596, TID:10, AID:79a357c6-d684-42db-a3f6-dec57467e7bd - Starting Oculi Service)
+[06/06/2017 15:35:06.609] Information: This is a test message (PID:15636, TID:6, AID:32842892-090d-412f-a420-ba69535dbef7 - Starting Oculi Service)
+[06/06/2017 15:53:09.146] Information: This is a test message (PID:14636, TID:6, AID:582f808a-bbb7-45ca-8900-fb8ef6eecd26 - Starting Oculi Service)
+[06/06/2017 16:28:55.633] Information: This is a test message (PID:10884, TID:10, AID:f2925b1d-c959-4a1b-96c1-50e2eeaf7781 - Starting Oculi Service)
+[06/06/2017 16:29:06.816] Critical: Unhandled exception while loading the Oculi Service--System.ArgumentNullException: String reference not set to an instance of a String.
+    Parameter name: s
+       at System.Text.Encoding.GetBytes(String s)
+       at OculiService.Common.TripleDesCryptor.Encrypt(String toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\TripleDesCryptor.cs:line 27
+       at OculiService.Common.Cryptor.EncryptTripleDES(String clear) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Cryptor.cs:line 64
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.ApplyCryptor(OculiOAuth2Token toEncrypt, Func`2 cryptor) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 43
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.EncryptTripleDES(OculiOAuth2Token toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 31
+       at OculiService.Common.Encryption.TripleDESOAuth2TokenCryptor.Encrypt(OculiOAuth2Token plain) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\TripleDESOAuth2TokenCryptor.cs:line 10
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.StoreToken(OculiOAuth2Token _token) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 56
+       at OculiService.CloudProviders.Oculi.OculiOAuth2.SignIn(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiOAuth2.cs:line 53
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 85
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:10884, TID:10, AID:f2925b1d-c959-4a1b-96c1-50e2eeaf7781 - Starting Oculi Service)
+[06/06/2017 16:29:06.848] Critical: System.ArgumentNullException: String reference not set to an instance of a String.
+    Parameter name: s
+       at System.Text.Encoding.GetBytes(String s)
+       at OculiService.Common.TripleDesCryptor.Encrypt(String toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\TripleDesCryptor.cs:line 27
+       at OculiService.Common.Cryptor.EncryptTripleDES(String clear) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Cryptor.cs:line 64
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.ApplyCryptor(OculiOAuth2Token toEncrypt, Func`2 cryptor) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 43
+       at OculiService.Common.Encryption.OculiOAuth2TokenExtensions.EncryptTripleDES(OculiOAuth2Token toEncrypt) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\OAuth2TokenExtensions.cs:line 31
+       at OculiService.Common.Encryption.TripleDESOAuth2TokenCryptor.Encrypt(OculiOAuth2Token plain) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Common\Encryption\TripleDESOAuth2TokenCryptor.cs:line 10
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.StoreToken(OculiOAuth2Token _token) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiTokenFactory.cs:line 56
+       at OculiService.CloudProviders.Oculi.OculiOAuth2.SignIn(RestRequest _request) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Authentication\OculiOAuth2.cs:line 53
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 85
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:10884, TID:10, AID:f2925b1d-c959-4a1b-96c1-50e2eeaf7781 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 16:49:23.476] Information: This is a test message (PID:4804, TID:11, AID:dca1e9b2-fca7-4ae3-97ca-a6c5db78bce7 - Starting Oculi Service)
+[06/06/2017 16:52:38.353] Critical: Unhandled exception while loading the Oculi Service--System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:4804, TID:11, AID:dca1e9b2-fca7-4ae3-97ca-a6c5db78bce7 - Starting Oculi Service)
+[06/06/2017 16:52:38.393] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:4804, TID:11, AID:dca1e9b2-fca7-4ae3-97ca-a6c5db78bce7 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 16:53:51.664] Information: This is a test message (PID:1108, TID:10, AID:cd53be25-19ec-4a81-8c75-6c43059e7994 - Starting Oculi Service)
+[06/06/2017 17:05:05.852] Critical: Unhandled exception while loading the Oculi Service--System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:1108, TID:10, AID:cd53be25-19ec-4a81-8c75-6c43059e7994 - Starting Oculi Service)
+[06/06/2017 17:05:05.884] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:1108, TID:10, AID:cd53be25-19ec-4a81-8c75-6c43059e7994 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 17:06:34.561] Information: This is a test message (PID:21792, TID:10, AID:46e82b5a-d72f-4803-94f2-554e4a02a1b3 - Starting Oculi Service)
+[06/06/2017 17:06:36.053] Critical: Unhandled exception while loading the Oculi Service--System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:21792, TID:10, AID:46e82b5a-d72f-4803-94f2-554e4a02a1b3 - Starting Oculi Service)
+[06/06/2017 17:06:36.083] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:21792, TID:10, AID:46e82b5a-d72f-4803-94f2-554e4a02a1b3 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 17:07:23.094] Information: This is a test message (PID:25208, TID:10, AID:9d6c88a5-27de-4d2d-9be7-3053c3a8b3b2 - Starting Oculi Service)
+[06/06/2017 17:12:50.572] Critical: Unhandled exception while loading the Oculi Service--System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:25208, TID:10, AID:9d6c88a5-27de-4d2d-9be7-3053c3a8b3b2 - Starting Oculi Service)
+[06/06/2017 17:12:50.602] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:25208, TID:10, AID:9d6c88a5-27de-4d2d-9be7-3053c3a8b3b2 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 17:21:15.195] Information: This is a test message (PID:12308, TID:11, AID:bd8b5b04-96fc-401c-aed5-f81294ccdf8d - Starting Oculi Service)
+[06/06/2017 18:31:01.679] Critical: Unhandled exception while loading the Oculi Service--System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:12308, TID:11, AID:bd8b5b04-96fc-401c-aed5-f81294ccdf8d - Starting Oculi Service)
+[06/06/2017 18:31:01.715] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:12308, TID:11, AID:bd8b5b04-96fc-401c-aed5-f81294ccdf8d - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 18:31:11.361] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:12308, TID:11, AID:bd8b5b04-96fc-401c-aed5-f81294ccdf8d - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 18:33:11.145] Information: This is a test message (PID:15820, TID:10, AID:16a7a51b-09cd-4af0-8c62-0231c3449346 - Starting Oculi Service)
+[06/06/2017 18:42:58.999] Critical: Unhandled exception while loading the Oculi Service--System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:15820, TID:10, AID:16a7a51b-09cd-4af0-8c62-0231c3449346 - Starting Oculi Service)
+[06/06/2017 18:42:59.036] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:15820, TID:10, AID:16a7a51b-09cd-4af0-8c62-0231c3449346 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 18:43:59.463] Information: This is a test message (PID:22532, TID:6, AID:a879d26f-3d18-4c3c-9213-7caa4e53f639 - Starting Oculi Service)
+[06/06/2017 18:44:03.301] Critical: Unhandled exception while loading the Oculi Service--System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:22532, TID:6, AID:a879d26f-3d18-4c3c-9213-7caa4e53f639 - Starting Oculi Service)
+[06/06/2017 18:44:03.341] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:22532, TID:6, AID:a879d26f-3d18-4c3c-9213-7caa4e53f639 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 18:45:02.484] Information: This is a test message (PID:18484, TID:10, AID:66daab3a-898f-4984-9f6d-46a849de54e7 - Starting Oculi Service)
+[06/06/2017 18:45:16.039] Critical: Unhandled exception while loading the Oculi Service--System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:18484, TID:10, AID:66daab3a-898f-4984-9f6d-46a849de54e7 - Starting Oculi Service)
+[06/06/2017 18:45:16.072] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:18484, TID:10, AID:66daab3a-898f-4984-9f6d-46a849de54e7 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 18:45:59.416] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:18484, TID:10, AID:66daab3a-898f-4984-9f6d-46a849de54e7 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 18:46:01.784] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:18484, TID:10, AID:66daab3a-898f-4984-9f6d-46a849de54e7 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 18:46:12.504] Information: This is a test message (PID:19748, TID:6, AID:9ee12da9-ce31-4e22-8b6b-8cf682db913e - Starting Oculi Service)
+[06/06/2017 18:46:18.700] Critical: Unhandled exception while loading the Oculi Service--System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:19748, TID:6, AID:9ee12da9-ce31-4e22-8b6b-8cf682db913e - Starting Oculi Service)
+[06/06/2017 18:46:18.848] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 156
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 18
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 43
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:19748, TID:6, AID:9ee12da9-ce31-4e22-8b6b-8cf682db913e - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 21:58:06.604] Information: This is a test message (PID:29528, TID:11, AID:cfc24d05-c195-4303-9292-aae204cd036c - Starting Oculi Service)
+[06/06/2017 22:03:02.492] Critical: Unhandled exception while loading the Oculi Service--System.MissingMethodException: Method not found: 'System.String OculiService.CloudProviders.Oculi.Contracts.OculiOAuth2Token.get_cookie()'.
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.SetTokenRequest(RestRequest _request)
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object)
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object)
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve()
+       at OculiService.Internal.Service.OculiServiceLoader.Load()
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) (PID:29528, TID:11, AID:cfc24d05-c195-4303-9292-aae204cd036c - Starting Oculi Service)
+[06/06/2017 22:03:02.537] Critical: System.MissingMethodException: Method not found: 'System.String OculiService.CloudProviders.Oculi.Contracts.OculiOAuth2Token.get_cookie()'.
+       at OculiService.CloudProviders.Oculi.Classes.OculiTokenFactory.SetTokenRequest(RestRequest _request)
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object)
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object)
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve()
+       at OculiService.Internal.Service.OculiServiceLoader.Load()
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0)
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:29528, TID:11, AID:cfc24d05-c195-4303-9292-aae204cd036c - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/06/2017 22:03:21.470] Information: This is a test message (PID:25316, TID:6, AID:780d5f74-dbd4-4b36-968b-e3173e303346 - Starting Oculi Service)
+[06/06/2017 22:04:49.459] Information: This is a test message (PID:30912, TID:9, AID:e38e5890-d77d-464d-98de-f0b3690594a6 - Starting Oculi Service)
+[06/06/2017 22:09:03.623] Information: This is a test message (PID:27036, TID:6, AID:484b5706-7736-45b8-897c-75806dfd5f94 - Starting Oculi Service)
+[06/06/2017 22:25:56.715] Information: This is a test message (PID:31452, TID:10, AID:d44b4c3f-f275-46c2-a2fa-1a62e337c70b - Starting Oculi Service)
+[06/06/2017 22:27:10.993] Information: This is a test message (PID:16684, TID:7, AID:6d7acf86-435a-4998-b19e-95df1f77c1dd - Starting Oculi Service)
+[06/07/2017 14:30:08.754] Information: This is a test message (PID:31644, TID:10, AID:baae5f46-1dc9-4489-ba86-be866cc9e725 - Starting Oculi Service)
+[06/07/2017 14:34:21.335] Information: This is a test message (PID:29408, TID:10, AID:2a927a00-bed3-4bc6-b760-95e61f692d76 - Starting Oculi Service)
+[06/07/2017 14:35:06.210] Information: This is a test message (PID:4544, TID:6, AID:bd75d6d9-cb48-4b2a-8660-2e80286a6db9 - Starting Oculi Service)
+[06/07/2017 14:35:47.352] Information: This is a test message (PID:1552, TID:6, AID:1c86000b-ba0a-41bc-a3bf-53db3a257db3 - Starting Oculi Service)
+[06/07/2017 14:36:47.802] Information: This is a test message (PID:24476, TID:6, AID:506ce85b-fa31-4639-8be5-637a0cfe43b6 - Starting Oculi Service)
+[06/07/2017 14:39:34.105] Information: This is a test message (PID:23964, TID:6, AID:6c3e876f-9340-4506-ad13-0eb389a48577 - Starting Oculi Service)
+[06/07/2017 14:40:47.541] Information: This is a test message (PID:6932, TID:7, AID:a7da0b14-205c-44b0-8390-fb145529ab72 - Starting Oculi Service)
+[06/07/2017 14:41:18.453] Information: This is a test message (PID:27596, TID:7, AID:99602466-9b28-42eb-938e-725dabb7823b - Starting Oculi Service)
+[06/08/2017 00:06:51.907] Information: This is a test message (PID:27168, TID:8, AID:f83ab79f-342f-424c-bbaa-e4fa0f3680d1 - Starting Oculi Service)
+[06/08/2017 00:09:21.625] Information: This is a test message (PID:25756, TID:11, AID:9db95af5-4cfe-4506-b353-3be9897d6ab9 - Starting Oculi Service)
+[06/08/2017 00:10:08.158] Information: This is a test message (PID:27508, TID:6, AID:79011909-45d7-4b77-915f-e8fa7b39059c - Starting Oculi Service)
+[06/08/2017 00:11:25.040] Information: This is a test message (PID:3676, TID:6, AID:f8ac153b-e3d1-445b-93a2-953a7c311a5d - Starting Oculi Service)
+[06/08/2017 00:12:30.217] Information: This is a test message (PID:20608, TID:10, AID:5bf7c334-3612-41ea-aa43-0e6b34ad1330 - Starting Oculi Service)
+[06/08/2017 00:21:06.235] Information: This is a test message (PID:31672, TID:7, AID:3a28e1cf-4aa8-4f7f-9584-73ff56c2431a - Starting Oculi Service)
+[06/08/2017 00:21:27.534] Critical: Unhandled exception while loading the Oculi Service--System.Exception: NotFound 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 144
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 23
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 44
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:31672, TID:7, AID:3a28e1cf-4aa8-4f7f-9584-73ff56c2431a - Starting Oculi Service)
+[06/08/2017 00:21:27.567] Critical: System.Exception: NotFound 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 144
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 23
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 44
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:31672, TID:7, AID:3a28e1cf-4aa8-4f7f-9584-73ff56c2431a - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
