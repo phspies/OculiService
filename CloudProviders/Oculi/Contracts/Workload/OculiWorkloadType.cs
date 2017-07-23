@@ -1,15 +1,23 @@
 ﻿using Newtonsoft.Json;
-using OculiService.CloudProviders.Oculi.Contracts.Platforms;
+using OculiService.CloudProviders.Oculi.Contracts.Common;
+using OculiService.CloudProviders.Oculi.Contracts.Common.Contracts;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OculiService.CloudProviders.Oculi.Contracts.Workload
 {
-    public class OculiWorkloadType
+    [Table("OculiWorkloads")]
+    public class OculiWorkloadType : OculiRecordType
     {
+        public OculiWorkloadType()
+        {
+            disks = new List<OculiWorkloadDiskType>();
+            volumes = new List<OculiWorkloadVolumeType>();
+            interfaces = new List<OculiWorkloadInterfaceType>();
+            processes = new List<OculiWorkloadPackageType>();
+            packages = new List<OculiWorkloadProcessType>(); 
+        }
         [JsonProperty("id")]
         public string id { get; set; }
         [JsonProperty("hostname")]
@@ -36,7 +44,7 @@ namespace OculiService.CloudProviders.Oculi.Contracts.Workload
         public string osedition { get; set; }
         [JsonProperty("serialnumber")]
         public string serialnumber { get; set; }
-        [JsonProperty("id")]
+        [JsonProperty("model")]
         public string model { get; set; }
         [JsonProperty("enabled")]
         public bool enabled { get; set; }
@@ -104,28 +112,23 @@ namespace OculiService.CloudProviders.Oculi.Contracts.Workload
         public bool sync_tag_rules { get; set; }
         [JsonProperty("sync_affinity_rules")]
         public bool sync_affinity_rules { get; set; }
-        [JsonProperty("created_at")]
-        public DateTime created_at { get; set; }
-        [JsonProperty("updated_at")]
-        public DateTime updated_at { get; set; }
         [JsonProperty("credential")]
         public OculiWorkloadPackageType credential { get; set; }
         [JsonProperty("platform")]
         public OculiPlatformType platform { get; set; }
-        [JsonProperty("workloaddisks")]
-        public List<OculiWorkloadDiskType> workloaddisks { get; set; }
-        [JsonProperty("workloadvolumes")]
-        public List<OculiWorkloadVolumeType> workloadvolumes { get; set; }
-        [JsonProperty("workloadinterfaces")]
-        public List<OculiWorkloadInterfaceType> workloadinterfaces { get; set; }
-        [JsonProperty("workloadpackages")]
-        public List<OculiWorkloadProcessType> workloadpackages { get; set; }
-        [JsonProperty("workloadprocesses")]
-        public List<OculiWorkloadPackageType> workloadprocesses { get; set; }
-
+        [JsonProperty("workloaddisks_attributes")]
+        public List<OculiWorkloadDiskType> disks { get; set; }
+        [JsonProperty("workloadvolumes_attributes")]
+        public List<OculiWorkloadVolumeType> volumes { get; set; }
+        [JsonProperty("workloadinterfaces_attributes")]
+        public List<OculiWorkloadInterfaceType> interfaces { get; set; }
+        [JsonProperty("workloadpackages_attributes")]
+        public List<OculiWorkloadProcessType> packages { get; set; }
+        [JsonProperty("workloadprocesses_attributes")]
+        public List<OculiWorkloadPackageType> processes { get; set; }
         [JsonProperty("datamoverdeploymentpolicy")]
         public List<OculiDatamoverDeploymentPolicyType> datamoverdeploymentpolicy { get; set; }
-        [JsonProperty("datamovetpolicy")]
+        [JsonProperty("datamoverpolicy")]
         public List<OculiDatamoverPolicyType> datamovetpolicy { get; set; }
     }
 }

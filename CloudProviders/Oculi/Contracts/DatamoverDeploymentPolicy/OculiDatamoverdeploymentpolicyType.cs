@@ -1,9 +1,11 @@
 ﻿using Newtonsoft.Json;
+using OculiService.CloudProviders.Oculi.Contracts.Common.Contracts;
 using System;
+using System.Collections.Generic;
 
 namespace OculiService.CloudProviders.Oculi.Contracts
 {
-    public class OculiDatamoverDeploymentPolicyType
+    public class OculiDatamoverDeploymentPolicyType : OculiRecordType
     {
         [JsonProperty("id")]
         public string id { get; set; }
@@ -39,9 +41,5 @@ namespace OculiService.CloudProviders.Oculi.Contracts
         public string dm_source_activation_code { get; set; }
         [JsonProperty("dm_target_activation_code")]
         public string dm_target_activation_code { get; set; }
-        [JsonProperty("created_at")]
-        public DateTime created_at { get; set; }
-        [JsonProperty("updated_at")]
-        public DateTime updated_at { get; set; }
     }
 }

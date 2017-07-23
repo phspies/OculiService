@@ -1,4 +1,6 @@
 ﻿using Newtonsoft.Json;
+using OculiService.CloudProviders.Oculi.Contracts.Common;
+using OculiService.CloudProviders.Oculi.Contracts.Common.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,13 +9,7 @@ using System.Threading.Tasks;
 
 namespace OculiService.CloudProviders.Oculi.Contracts
 {
-    public class OculiUserRootType
-    {
-        [JsonProperty("user")]
-        public OculiUserType user { get; set; }
-    }
-
-    public class OculiUserType
+    public class OculiUserType : OculiRecordType
     {
         [JsonProperty("id")]
         public string id { get; set; }

@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using OculiService.CloudProviders.Oculi.Contracts.Common.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace OculiService.CloudProviders.Oculi.Contracts
 {
-    public class OculiPlatformTemplateType
+    public class OculiPlatformTemplateType : OculiRecordType
     {
         [JsonProperty("id")]
         public string id { get; set; }
@@ -15,7 +16,7 @@ namespace OculiService.CloudProviders.Oculi.Contracts
         public string platform_id { get; set; }
         [JsonProperty("moid")]
         public string moid { get; set; }
-        [JsonProperty("id")]
+        [JsonProperty("template")]
         public string template { get; set; }
         [JsonProperty("description")]
         public string description { get; set; }
@@ -31,9 +32,5 @@ namespace OculiService.CloudProviders.Oculi.Contracts
         public bool deleted { get; set; }
         [JsonProperty("enabled")]
         public bool enabled { get; set; }
-        [JsonProperty("created_at")]
-        public DateTime created_at { get; set; }
-        [JsonProperty("updated_at")]
-        public DateTime updated_at { get; set; }
     }
 }

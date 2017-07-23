@@ -30,7 +30,7 @@ namespace OculiService.Common.Logging
 
         static LogicalOperation()
         {
-            LogicalOperation.CallContextDataSlotName = "Omoxi.Common.Logging.LogicalOperation";
+            LogicalOperation.CallContextDataSlotName = "OculiService.Common.Logging.LogicalOperation";
             LogicalOperation.IsRunningInAdapter = AppDomain.CurrentDomain.GetAssemblies().Any<Assembly>((Assembly a) =>
             {
                 if (a.FullName.Contains("Microsoft.VisualStudio.TestPlatform") || a.FullName.Contains("Microsoft.VisualStudio.QualityTools"))

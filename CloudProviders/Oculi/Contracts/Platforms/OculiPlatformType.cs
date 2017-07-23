@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using OculiService.CloudProviders.Oculi.Contracts.Common.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace OculiService.CloudProviders.Oculi.Contracts
 {
-    public class OculiPlatformType
+    public class OculiPlatformType : OculiRecordType
     {
         [JsonProperty("id")]
         public string id { get; set; }
@@ -46,7 +47,5 @@ namespace OculiService.CloudProviders.Oculi.Contracts
         [JsonProperty("platformdatacenter_id")]
         public object platformdatacenter_id { get; set; }
         public List<OculiPlatformTemplateType> platformtemplates { get; set; }
-
-
     }
 }

@@ -9,6 +9,8 @@ using OculiService.CloudProviders.Oculi.Contracts;
 using OculiService.CloudProviders.Oculi.Classes;
 using OculiService.Common.Interfaces;
 using OculiService.Common;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace OculiService.CloudProviders.Oculi
 {
@@ -123,6 +125,18 @@ namespace OculiService.CloudProviders.Oculi
                     _signin.SignIn(_request);
                     continue;
                 }
+                else if (restResponse.StatusCode == (HttpStatusCode)422)
+                {
+                    responseobject = JsonConvert.DeserializeObject<T>(restResponse.Content, new JsonSerializerSettings
+                    {
+                        MissingMemberHandling = MissingMemberHandling.Ignore,
+                        NullValueHandling = NullValueHandling.Ignore,
+                        Error = new OculiException().DeserializationExpection
+                    });
+                    string _error_field_list = responseobject.GetType().GetProperty("errors") == null ? "no errors definition found" : String.Join(", ", ((List<String>)responseobject.GetType().GetProperty("errors").GetValue(responseobject, null)));
+                    throw new Exception(String.Format("Error while processing portal transaction: {0}", _error_field_list));
+                }
+
                 else if (restResponse.StatusCode == HttpStatusCode.BadRequest)
                 {
                     //ResultType _result = new ResultType();

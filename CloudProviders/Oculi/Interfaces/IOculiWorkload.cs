@@ -11,6 +11,7 @@ namespace OculiService.CloudProviders.Oculi.Interfaces
 {
     public interface IOculiWorkload
     {
+        void Set(OculiWorkloadType set_object);
         OculiWorkloadType Get();
         OculiWorkloadType Create(OculiWorkloadType _workload);
         OculiWorkloadType Update(OculiWorkloadType _workload);

@@ -21,7 +21,7 @@ namespace OculiService.CloudProviders.Oculi.Classes
         static public bool IsTokenConfigured()
         {
             ICoreEngineSettings _coreengine_settings = new CoreEngineSettings();
-            return (String.IsNullOrWhiteSpace(_coreengine_settings.TokenAccessCode)) ? true : false;
+            return (!String.IsNullOrWhiteSpace(_coreengine_settings.TokenAccessCode)) ? true : false;
 
         }
         static public RestRequest SetTokenRequest(RestRequest _request)

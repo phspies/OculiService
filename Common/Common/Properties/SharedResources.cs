@@ -21,7 +21,7 @@ namespace OculiService.Common.Properties
       get
       {
         if (SharedResources.resourceMan == null)
-          SharedResources.resourceMan = new ResourceManager("Oculi.Common.Properties.SharedResources", typeof (SharedResources).Assembly);
+          SharedResources.resourceMan = new ResourceManager("OculiService.Common.Properties.SharedResources", typeof (SharedResources).Assembly);
         return SharedResources.resourceMan;
       }
     }

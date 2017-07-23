@@ -10,6 +10,9 @@ namespace OculiService.CloudProviders.Oculi
         public ILogger _logger;
         public OculiOAuth2Token _token = new OculiOAuth2Token();
         public OculiOAuth2 _oculiOauth;
+
+        private OculiOrganizationType _organization_object;
+        private OculiOrganization _organization;
         public OculiApi(ILogger logger)
         {
             _logger = logger;
@@ -25,7 +28,8 @@ namespace OculiService.CloudProviders.Oculi
         {
             get
             {
-                return new OculiOrganization(this, _logger);
+                _organization = (_organization == null) ? new OculiOrganization(this, _logger, _organization_object) : _organization;
+                return _organization;
             }
         }
 

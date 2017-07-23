@@ -14,7 +14,7 @@ namespace OculiService.CloudProviders.Oculi.Contracts
         [JsonProperty("organization")]
         public string organization { get; set; }
         [JsonProperty("users")]
-        public OculiUserRootType[] users { get; set; }
+        public List<OculiUserType> users { get; set; }
     }
 
 }

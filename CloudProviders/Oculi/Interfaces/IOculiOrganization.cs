@@ -12,7 +12,8 @@ namespace OculiService.CloudProviders.Oculi.Interfaces
     {
         OculiOrganizationType Retrieve();
 
-        OculiWorkload Workload { get; }
+        OculiPlatform Platform { get; }
 
+        OculiWorkload Workload { get; }
     }
 }

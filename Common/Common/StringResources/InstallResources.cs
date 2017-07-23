@@ -21,7 +21,7 @@ namespace OculiService.Common.StringResources
       get
       {
         if (InstallResources.resourceMan == null)
-          InstallResources.resourceMan = new ResourceManager("Oculi.Common.StringResources.InstallResources", typeof (InstallResources).Assembly);
+          InstallResources.resourceMan = new ResourceManager("OculiService.Common.StringResources.InstallResources", typeof (InstallResources).Assembly);
         return InstallResources.resourceMan;
       }
     }

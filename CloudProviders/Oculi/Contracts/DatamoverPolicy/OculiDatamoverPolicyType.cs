@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using OculiService.CloudProviders.Oculi.Contracts.Common.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace OculiService.CloudProviders.Oculi.Contracts
 {
-    public class OculiDatamoverPolicyType
+    public class OculiDatamoverPolicyType : OculiRecordType
     {
         [JsonProperty("id")]
         public string id { get; set; }
@@ -71,9 +72,5 @@ namespace OculiService.CloudProviders.Oculi.Contracts
         public string linux_staging_path { get; set; }
         [JsonProperty("repositorypath")]
         public string repositorypath { get; set; }
-        [JsonProperty("created_at")]
-        public DateTime created_at { get; set; }
-        [JsonProperty("updated_at")]
-        public DateTime updated_at { get; set; }
     }
 }

@@ -1,17 +1,13 @@
 ﻿using Newtonsoft.Json;
-using System;
+using OculiService.CloudProviders.Oculi.Contracts.Common;
+using OculiService.CloudProviders.Oculi.Contracts.Common.Contracts;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OculiService.CloudProviders.Oculi.Contracts
 {
-    class OculiCoreEngineListType
+    class OculiCoreEngineListType : OculiListType
     {
         [JsonProperty("coreengines")]
         public List<OculiCoreEngineType> coreengines { get; set; }
-        [JsonProperty("paging")]
-        public OculiPagingType paging { get; set; }
     }
 }

@@ -1,13 +1,9 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using OculiService.CloudProviders.Oculi.Contracts.Common.Contracts;
 
 namespace OculiService.CloudProviders.Oculi.Contracts
 {
-    public class OculiCredentialType
+    public class OculiCredentialType : OculiRecordType
     {
         [JsonProperty("id")]
         public string id { get; set; }
@@ -29,10 +25,6 @@ namespace OculiService.CloudProviders.Oculi.Contracts
         public string ostype { get; set; }
         [JsonProperty("seckey")]
         public string seckey { get; set; }
-        [JsonProperty("created_at")]
-        public DateTime created_at { get; set; }
-        [JsonProperty("updated_at")]
-        public DateTime updated_at { get; set; }
-    }
 
+    }
 }

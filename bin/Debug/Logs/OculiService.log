@@ -622,3 +622,166 @@
        at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
        at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
        at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:31672, TID:7, AID:3a28e1cf-4aa8-4f7f-9584-73ff56c2431a - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/08/2017 11:32:53.033] Information: This is a test message (PID:18052, TID:10, AID:2a411bcb-eaee-42ce-aae7-7275900ba970 - Starting Oculi Service)
+[06/08/2017 11:57:58.275] Information: This is a test message (PID:28860, TID:11, AID:fe0675db-56ec-47a6-a7ac-c04d78ea51ed - Starting Oculi Service)
+[06/08/2017 11:58:07.880] Critical: Unhandled exception while loading the Oculi Service--System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 160
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 23
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 44
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:28860, TID:11, AID:fe0675db-56ec-47a6-a7ac-c04d78ea51ed - Starting Oculi Service)
+[06/08/2017 11:58:07.911] Critical: System.Exception: InternalServerError 
+       at OculiService.CloudProviders.Oculi.OculiApiCore.PerformApiCall[T](Method _method, Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 160
+       at OculiService.CloudProviders.Oculi.OculiApiCore.GetOperation[T](Object _object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApiCore.cs:line 42
+       at OculiService.CloudProviders.Oculi.OculiOrganization.Retrieve() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Organization\OculiOrganization.cs:line 23
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 44
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:28860, TID:11, AID:fe0675db-56ec-47a6-a7ac-c04d78ea51ed - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/08/2017 12:01:02.846] Information: This is a test message (PID:23116, TID:11, AID:35c5a70e-d493-483b-a2d8-783adcaa94a0 - Starting Oculi Service)
+[06/08/2017 12:01:53.262] Information: This is a test message (PID:25164, TID:7, AID:78eee651-e0ea-4c9a-9713-d226f2c6dd0e - Starting Oculi Service)
+[06/08/2017 12:05:56.254] Information: This is a test message (PID:10232, TID:6, AID:a76aef5e-e8fd-4ba7-8c6b-c604f60bc1ee - Starting Oculi Service)
+[06/08/2017 12:06:34.052] Information: This is a test message (PID:25796, TID:7, AID:7e427fe8-92d1-4032-afcb-bc09f54026af - Starting Oculi Service)
+[06/08/2017 12:12:36.125] Information: This is a test message (PID:30080, TID:7, AID:763d817c-1fa6-4b23-b45e-584d239253cb - Starting Oculi Service)
+[06/08/2017 12:16:04.732] Information: This is a test message (PID:18008, TID:10, AID:1047b27c-99c8-4844-897a-63aafbf6ec13 - Starting Oculi Service)
+[06/08/2017 12:26:27.158] Information: This is a test message (PID:12340, TID:10, AID:4541e17b-56f3-4703-ac95-7ffb23271355 - Starting Oculi Service)
+[06/08/2017 12:27:33.478] Information: This is a test message (PID:22972, TID:7, AID:b091d4b3-128c-4a78-9cce-2dd4c9110fea - Starting Oculi Service)
+[06/08/2017 12:30:01.880] Information: This is a test message (PID:29168, TID:10, AID:547de3eb-439a-49b9-9761-a584a4626761 - Starting Oculi Service)
+[06/08/2017 12:32:59.172] Information: This is a test message (PID:33068, TID:10, AID:50d2245d-9acc-4203-84ff-3ee2010c974a - Starting Oculi Service)
+[06/08/2017 12:37:19.963] Information: This is a test message (PID:33684, TID:10, AID:57568697-0b2b-4e3a-a04b-58ae87fe9ca0 - Starting Oculi Service)
+[06/08/2017 12:37:20.121] Critical: Unhandled exception while loading the Oculi Service--System.NullReferenceException: Object reference not set to an instance of an object.
+       at OculiService.CloudProviders.Oculi.OculiApi.get_Organization() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApi.cs:line 31
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 44
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:33684, TID:10, AID:57568697-0b2b-4e3a-a04b-58ae87fe9ca0 - Starting Oculi Service)
+[06/08/2017 12:37:20.165] Critical: System.NullReferenceException: Object reference not set to an instance of an object.
+       at OculiService.CloudProviders.Oculi.OculiApi.get_Organization() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApi.cs:line 31
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 44
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:33684, TID:10, AID:57568697-0b2b-4e3a-a04b-58ae87fe9ca0 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/08/2017 12:37:26.822] Critical: System.NullReferenceException: Object reference not set to an instance of an object.
+       at OculiService.CloudProviders.Oculi.OculiApi.get_Organization() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Core\OculiApi.cs:line 31
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 44
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:33684, TID:10, AID:57568697-0b2b-4e3a-a04b-58ae87fe9ca0 - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/08/2017 12:37:56.437] Information: This is a test message (PID:10880, TID:7, AID:adab4e83-44c6-431b-ad26-0295d168a7b8 - Starting Oculi Service)
+[06/08/2017 12:39:38.263] Information: This is a test message (PID:27288, TID:10, AID:29faed20-2ce8-448e-a839-2bce3f37ebb1 - Starting Oculi Service)
+[06/08/2017 12:42:39.914] Information: This is a test message (PID:24912, TID:10, AID:c2957263-900a-485c-82a0-aa909e5c1e31 - Starting Oculi Service)
+[06/08/2017 12:46:19.371] Information: This is a test message (PID:23448, TID:10, AID:f037d455-b8f5-4b4b-9d75-f2275f8e8eb8 - Starting Oculi Service)
+[06/08/2017 13:01:22.844] Information: This is a test message (PID:10960, TID:7, AID:2f18dda9-6cdb-4d94-90a8-0b1697de38cb - Starting Oculi Service)
+[06/08/2017 13:02:17.071] Information: This is a test message (PID:24264, TID:6, AID:1289a74f-7e0b-400d-9adf-ff732d94b05f - Starting Oculi Service)
+[06/08/2017 13:02:56.712] Information: This is a test message (PID:23064, TID:6, AID:8698a827-2515-4bf6-b4c2-a2a07623992e - Starting Oculi Service)
+[06/08/2017 16:20:39.260] Information: This is a test message (PID:32296, TID:11, AID:688b8a05-817a-4f6a-b463-b52a65beed99 - Starting Oculi Service)
+[06/08/2017 16:21:26.782] Information: This is a test message (PID:1684, TID:7, AID:101f4bac-e449-4788-bd84-06d88eea2eab - Starting Oculi Service)
+[06/08/2017 16:21:38.149] Critical: Unhandled exception while loading the Oculi Service--System.NullReferenceException: Object reference not set to an instance of an object.
+       at OculiService.CloudProviders.Oculi.OculiPlatformWorkload..ctor(OculiApi oculi_api, ILogger logger, OculiOrganizationType organization_object, OculiPlatformType platform_object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Platform\Workload\OculiWorkload.cs:line 23
+       at OculiService.CloudProviders.Oculi.OculiPlatform.get_Workload() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Platform\OculiPlatform.cs:line 35
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 47
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:1684, TID:7, AID:101f4bac-e449-4788-bd84-06d88eea2eab - Starting Oculi Service)
+[06/08/2017 16:21:38.187] Critical: System.NullReferenceException: Object reference not set to an instance of an object.
+       at OculiService.CloudProviders.Oculi.OculiPlatformWorkload..ctor(OculiApi oculi_api, ILogger logger, OculiOrganizationType organization_object, OculiPlatformType platform_object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Platform\Workload\OculiWorkload.cs:line 23
+       at OculiService.CloudProviders.Oculi.OculiPlatform.get_Workload() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Platform\OculiPlatform.cs:line 35
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 47
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 65
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+       at System.Threading.ThreadPoolWorkQueue.Dispatch() (PID:1684, TID:7, AID:101f4bac-e449-4788-bd84-06d88eea2eab - An unhandled exception occurred in AppDomain: [OculiService.vshost.exe]|Starting Oculi Service)
+[06/08/2017 16:22:00.773] Information: This is a test message (PID:32040, TID:6, AID:cd4e3040-b5de-48b6-8893-53133ddb0354 - Starting Oculi Service)
+[06/08/2017 16:23:15.261] Information: This is a test message (PID:30420, TID:6, AID:53166d17-2326-4a43-99fa-286f60c4d2cf - Starting Oculi Service)
+[06/08/2017 16:25:43.431] Information: This is a test message (PID:30900, TID:10, AID:e520a6a9-29d9-429f-a861-3220e0a169cf - Starting Oculi Service)
+[06/08/2017 16:30:25.324] Information: This is a test message (PID:30592, TID:10, AID:e5dea9c3-e121-4ff2-ab6e-9f46134fcd06 - Starting Oculi Service)
+[06/08/2017 16:30:57.228] Critical: Unhandled exception while loading the Oculi Service--System.NullReferenceException: Object reference not set to an instance of an object.
+       at OculiService.CloudProviders.Oculi.OculiPlatformWorkload..ctor(OculiApi oculi_api, ILogger logger, OculiOrganizationType organization_object, OculiPlatformType platform_object) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Platform\Workload\OculiWorkload.cs:line 23
+       at OculiService.CloudProviders.Oculi.OculiPlatform.get_Workload() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\CloudProviders\Oculi\Endoints\Platform\OculiPlatform.cs:line 26
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 47
+       at OculiService.Internal.Service.OculiService.<OnStart>b__9_0(Object param0) in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiService.cs:line 60 (PID:30592, TID:10, AID:e5dea9c3-e121-4ff2-ab6e-9f46134fcd06 - Starting Oculi Service)
+[06/08/2017 16:32:41.601] Information: This is a test message (PID:16288, TID:10, AID:f1fcbe7c-a700-4a9e-92bb-aa8a4130b8d3 - Starting Oculi Service)
+[06/08/2017 16:33:46.074] Information: This is a test message (PID:18428, TID:7, AID:58561765-d7dd-40a1-bbd8-ea74404ee067 - Starting Oculi Service)
+[06/08/2017 16:35:22.114] Information: This is a test message (PID:32272, TID:6, AID:11f91634-abe2-427d-abae-92bcb9eeef46 - Starting Oculi Service)
+[06/08/2017 16:36:33.032] Information: This is a test message (PID:11780, TID:7, AID:173bea24-cd81-4b08-8ffd-ebde790b1e6d - Starting Oculi Service)
+[06/08/2017 17:38:04.262] Information: This is a test message (PID:18616, TID:6, AID:fb5dc7af-b72c-42ef-98bb-2b611d10b5d8 - Starting Oculi Service)
+[06/08/2017 21:19:51.505] Information: This is a test message (PID:26544, TID:11, AID:a15bfe67-d4b4-438b-8fff-bc73cd3376d8 - Starting Oculi Service)
+[06/08/2017 21:30:22.241] Information: This is a test message (PID:21696, TID:10, AID:8de442a3-ec8a-4319-bd8a-0a9898a82ca8 - Starting Oculi Service)
+[06/08/2017 21:32:43.722] Information: This is a test message (PID:32360, TID:6, AID:e908e3eb-a754-4d0e-9f17-29577e2fd065 - Starting Oculi Service)
+[06/08/2017 21:34:02.585] Information: This is a test message (PID:32752, TID:10, AID:4ed8b586-1d03-451c-8495-026bb0fd5f2b - Starting Oculi Service)
+[06/08/2017 21:35:10.509] Information: This is a test message (PID:17220, TID:6, AID:692f9402-11d4-401b-8cd7-1ac52951a4dd - Starting Oculi Service)
+[06/08/2017 21:41:31.384] Information: This is a test message (PID:33772, TID:7, AID:bd53d2e4-9b7a-46c7-96d1-90a657f56419 - Starting Oculi Service)
+[06/08/2017 22:18:14.366] Information: This is a test message (PID:32012, TID:11, AID:371cce31-8b63-4232-a42b-26dd2d311de5 - Starting Oculi Service)
+[06/08/2017 22:27:33.273] Information: This is a test message (PID:19132, TID:9, AID:a7232dd8-8e2a-435a-803a-436f89040123 - Starting Oculi Service)
+[06/08/2017 22:34:13.480] Information: This is a test message (PID:16804, TID:11, AID:bb72f674-1449-4a11-abab-0c64bf865bf5 - Starting Oculi Service)
+[06/08/2017 22:35:23.298] Information: This is a test message (PID:33844, TID:6, AID:b968c1f2-6e02-4402-a256-03148e976716 - Starting Oculi Service)
+[06/08/2017 22:37:56.232] Information: This is a test message (PID:32092, TID:7, AID:9e33fef0-090f-4bbf-a231-d8247fa507db - Starting Oculi Service)
+[06/08/2017 22:38:26.137] Information: This is a test message (PID:17276, TID:7, AID:43892407-3c9d-4cc1-96dd-d9e8b7b80c7a - Starting Oculi Service)
+[06/08/2017 22:39:55.967] Information: This is a test message (PID:17500, TID:6, AID:c5ccfad3-f61a-4a78-b1de-c3ed106b0105 - Starting Oculi Service)
+[06/08/2017 22:41:23.141] Information: This is a test message (PID:32928, TID:7, AID:496618f8-f5b3-42f8-846d-dda230a1d6d7 - Starting Oculi Service)
+[06/08/2017 22:42:23.963] Information: This is a test message (PID:6584, TID:6, AID:414b775f-9b74-4519-a0ec-1f64e4febf58 - Starting Oculi Service)
+[06/09/2017 11:47:18.867] Information: This is a test message (PID:23988, TID:9, AID:4b1241b8-6b5e-4183-982b-a635e24511ea - Starting Oculi Service)
+[06/09/2017 11:56:05.655] Information: This is a test message (PID:27040, TID:7, AID:a5cac9a6-41ac-4bfa-a6bb-0634667cd47c - Starting Oculi Service)
+[06/09/2017 14:42:51.816] Information: This is a test message (PID:22768, TID:11, AID:9c73c1e7-6294-4cc0-a490-956a5bf3cace - Starting Oculi Service)
+[06/09/2017 14:45:55.093] Information: This is a test message (PID:8112, TID:9, AID:9851b5f2-4fe4-41c5-9a64-d906de251080 - Starting Oculi Service)
+[06/09/2017 14:47:48.702] Information: This is a test message (PID:11400, TID:11, AID:0e716f5c-0eed-4aa1-abe9-2386f65db878 - Starting Oculi Service)
+[06/09/2017 14:49:15.440] Information: This is a test message (PID:30096, TID:10, AID:29b132ef-4c78-4313-83aa-1cf4f3cb0b54 - Starting Oculi Service)
+[06/09/2017 14:50:34.948] Information: This is a test message (PID:34244, TID:6, AID:f978acfe-7ab5-4b2e-8980-2366c1fb0555 - Starting Oculi Service)
+[06/09/2017 14:52:54.885] Information: This is a test message (PID:27892, TID:9, AID:41b10147-ede3-4a38-955d-81e91ecfea30 - Starting Oculi Service)
+[06/09/2017 14:54:39.008] Information: This is a test message (PID:33940, TID:9, AID:eacbd58d-ef5a-4ae4-b299-e10f380a2c1f - Starting Oculi Service)
+[06/09/2017 15:01:44.893] Information: This is a test message (PID:34096, TID:10, AID:f1f559d7-e1f2-4e1d-8fe7-65003d258773 - Starting Oculi Service)
+[06/09/2017 15:02:31.924] Information: This is a test message (PID:27060, TID:10, AID:f82f0dbb-2e2c-483c-ab57-2b16b9b75d6e - Starting Oculi Service)
+[06/09/2017 15:03:47.351] Information: This is a test message (PID:24708, TID:7, AID:58f12e18-30cd-4307-b6ee-4a5a2741450a - Starting Oculi Service)
+[06/09/2017 15:13:30.052] Information: This is a test message (PID:34732, TID:9, AID:d871eed0-879d-4ad6-94b2-73530a826385 - Starting Oculi Service)
+[06/09/2017 15:21:12.686] Information: This is a test message (PID:33604, TID:11, AID:2fa33e0f-d0b4-4bfd-b2e3-c0415d2f00d8 - Starting Oculi Service)
+[06/09/2017 15:21:53.234] Information: This is a test message (PID:33944, TID:10, AID:a7f042d2-83f0-4ee5-809a-c1ccf528c969 - Starting Oculi Service)
+[06/09/2017 15:22:45.321] Information: This is a test message (PID:18460, TID:6, AID:2a8f2184-c48d-4aae-930d-533819ac13ed - Starting Oculi Service)
+[06/09/2017 15:26:06.712] Information: This is a test message (PID:28184, TID:10, AID:54f694ae-3a43-4031-810a-c3b83ec26324 - Starting Oculi Service)
+[06/09/2017 15:28:21.947] Information: This is a test message (PID:30904, TID:6, AID:97bacc34-2848-4ba1-bcdc-cfc6ad10f331 - Starting Oculi Service)
+[06/09/2017 15:31:46.658] Information: This is a test message (PID:12144, TID:9, AID:c77b78ef-e4d8-4be0-aa67-658712f64ac4 - Starting Oculi Service)
+[06/09/2017 15:32:33.865] Information: This is a test message (PID:30964, TID:10, AID:08d56267-7c84-4b3d-9b7e-74466c979cbc - Starting Oculi Service)
+[06/10/2017 11:34:46.909] Information: This is a test message (PID:30328, TID:6, AID:083b0fff-7cfd-49d2-9b58-62abc8debfe5 - Starting Oculi Service)
+[06/10/2017 11:41:58.696] Information: This is a test message (PID:24448, TID:11, AID:2c738429-6f4f-40f0-9049-ed994519e705 - Starting Oculi Service)
+[06/10/2017 11:43:59.489] Information: This is a test message (PID:6376, TID:9, AID:dd976e9e-b37d-4b78-b669-9174d7b7d69c - Starting Oculi Service)
+[06/10/2017 11:44:02.826] Critical: System.ArgumentException: Unable to find the requested .Net Framework Data Provider.  It may not be installed.
+       at System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+       at OculiService.Common.Database.OculiServiceDatabaseContext.GetConnection() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Database\OculiServiceDatabaseContext.cs:line 39
+       at OculiService.Common.Database.OculiServiceDatabaseContext..ctor() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Database\OculiServiceDatabaseContext.cs:line 20
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 51 (PID:6376, TID:9, AID:dd976e9e-b37d-4b78-b669-9174d7b7d69c - Starting Oculi Service)
+[06/10/2017 11:45:15.800] Information: This is a test message (PID:32364, TID:7, AID:c0368062-c447-4a8e-bef3-fa3f1a5fe948 - Starting Oculi Service)
+[06/10/2017 11:49:00.784] Information: This is a test message (PID:11208, TID:6, AID:583be630-e737-4b10-8ddc-e9aa23280e51 - Starting Oculi Service)
+[06/10/2017 11:50:21.765] Information: This is a test message (PID:23480, TID:8, AID:4862d958-e07c-45de-9e03-97e7ea835ad7 - Starting Oculi Service)
+[06/10/2017 22:16:43.441] Information: This is a test message (PID:34248, TID:11, AID:23612ba0-100f-4cb1-bb0e-ff6bf8bcf639 - Starting Oculi Service)
+[06/10/2017 22:18:59.416] Information: This is a test message (PID:33080, TID:10, AID:3a855072-4cfe-4581-a428-b438a49ac1df - Starting Oculi Service)
+[06/10/2017 22:22:09.207] Information: This is a test message (PID:32104, TID:9, AID:4127e2c9-972c-44be-8e8f-8293f007fe87 - Starting Oculi Service)
+[06/10/2017 22:25:13.835] Information: This is a test message (PID:23220, TID:11, AID:06da57dd-9cc9-4ffa-a399-c24bc460d376 - Starting Oculi Service)
+[06/10/2017 22:27:14.225] Information: This is a test message (PID:29084, TID:10, AID:8d319162-a65e-4500-b3bf-f96cc5e2a221 - Starting Oculi Service)
+[06/10/2017 22:29:42.231] Information: This is a test message (PID:29164, TID:10, AID:3b8967bb-a934-4e20-80a9-5a0f738a7a4d - Starting Oculi Service)
+[06/10/2017 22:31:09.433] Information: This is a test message (PID:13824, TID:6, AID:1d8f1c55-30e5-48b5-962c-a7bf03a8cc94 - Starting Oculi Service)
+[06/10/2017 22:31:12.607] Critical: System.ArgumentException: Unable to find the requested .Net Framework Data Provider.  It may not be installed.
+       at System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+       at OculiService.Common.Database.OculiServiceDatabaseContext.GetConnection() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Database\OculiServiceDatabaseContext.cs:line 39
+       at OculiService.Common.Database.OculiServiceDatabaseContext..ctor() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\Common\Database\OculiServiceDatabaseContext.cs:line 20
+       at OculiService.Internal.Service.OculiServiceLoader.Load() in C:\Users\phillip.spies\Documents\Visual Studio 2015\Projects\OculiService\OculiService\ServiceBase\OculiServiceLoader.cs:line 51 (PID:13824, TID:6, AID:1d8f1c55-30e5-48b5-962c-a7bf03a8cc94 - Starting Oculi Service)
+[06/10/2017 22:32:56.030] Information: This is a test message (PID:8168, TID:6, AID:aeb43ad2-be42-4964-a27e-841261ea76b3 - Starting Oculi Service)
+[06/10/2017 22:38:05.850] Information: This is a test message (PID:15968, TID:11, AID:e533a7b2-d0f8-497a-9c9d-a00ca488344c - Starting Oculi Service)
+[06/10/2017 22:40:42.933] Information: This is a test message (PID:33188, TID:6, AID:e218e50c-1bf8-4c69-a5e3-c12e27aa699d - Starting Oculi Service)
+[06/10/2017 22:42:05.460] Information: This is a test message (PID:10592, TID:10, AID:2ad5549a-1bb7-4fcf-8f61-f8da63670b46 - Starting Oculi Service)
+[06/10/2017 22:47:41.114] Information: This is a test message (PID:29852, TID:7, AID:d65c71c0-f3a9-429c-9a2c-234ded9fd580 - Starting Oculi Service)
+[06/10/2017 22:56:25.542] Information: This is a test message (PID:34464, TID:11, AID:dc8fe74f-13af-4bea-b301-41485bf0e63e - Starting Oculi Service)
+[06/10/2017 22:58:20.653] Information: This is a test message (PID:31352, TID:8, AID:dabea4ef-0490-4b58-bc54-aea68fefbe65 - Starting Oculi Service)
+[06/10/2017 22:58:52.004] Information: This is a test message (PID:31948, TID:6, AID:6fe6b75f-ad35-46eb-adf0-dd653b932fae - Starting Oculi Service)
+[06/10/2017 23:00:34.696] Information: This is a test message (PID:24372, TID:10, AID:e4c797eb-d20c-449e-aa87-986659be7de1 - Starting Oculi Service)
+[06/10/2017 23:06:39.821] Information: This is a test message (PID:3956, TID:8, AID:e823a251-c9cb-484d-abb2-8301da1a220b - Starting Oculi Service)
+[07/20/2017 15:57:34.710] Information: This is a test message (PID:20820, TID:10, AID:1a6da688-820a-4375-b168-9da8b8f39f6f - Starting Oculi Service)
+[07/20/2017 16:12:45.294] Information: This is a test message (PID:19676, TID:7, AID:109c2934-2ce9-4d5c-93fa-4df2ead3b577 - Starting Oculi Service)
+[07/20/2017 16:24:09.487] Information: This is a test message (PID:14936, TID:3, AID:2d691f21-f45d-4379-bae8-43fe40ec2bd8 - Starting Oculi Service)
+[07/20/2017 16:25:07.723] Information: This is a test message (PID:9768, TID:3, AID:9434dfd4-e009-463c-9b32-af3b1a80c5c3 - Starting Oculi Service)
+[07/20/2017 17:51:23.269] Information: This is a test message (PID:4128, TID:9, AID:d74677a4-faf3-49f1-bfa2-ea4cf919cd0a - Starting Oculi Service)
